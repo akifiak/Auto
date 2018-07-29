@@ -1,0 +1,972 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3081979477,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.init()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Form filling and submition",
+        "description": "",
+        "id": "form-automation;form-filling-and-submition;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 768296692,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7513086035,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to the app url",
+            "match": {
+              "location": "MyStepdefs.someTestInfo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104460403,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills first name with value \"Nick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nick",
+                  "offset": 34
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstNameWithValue(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100763441,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fills last name with value \"Jackson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jackson",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstNameForValue(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82127841,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Select Gender",
+            "match": {
+              "location": "MyStepdefs.userSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183863401,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills date of birth \"08/08/1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "08/08/1990",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.userFillsDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127649207,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills address with value \"333 W Wacker Dr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "333 W Wacker Dr",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.userFillsAddressWithValueAddress(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112102086,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills \"test@ing1.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@ing1.com",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepdefs.userFills(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102574831,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills password \"Testing1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing1",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.userFillsPassword(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95055816,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user fills company \"Forte1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Forte1",
+                  "offset": 20
+                }
+              ],
+              "location": "MyStepdefs.userFillsCompany(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138416701,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user select role",
+            "match": {
+              "location": "MyStepdefs.userSelectRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73239616,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user select salary",
+            "match": {
+              "location": "MyStepdefs.userSelectSalary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59984368,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user select expectationOne",
+            "match": {
+              "location": "MyStepdefs.userSelectExpectationOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61147033,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user select expectationTwo",
+            "match": {
+              "location": "MyStepdefs.userSelectExpectationTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70232591,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select self developmentOne",
+            "match": {
+              "location": "MyStepdefs.userSelectSelfDevelopmentOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79636694,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select self developmentTwo",
+            "match": {
+              "location": "MyStepdefs.userSelectSelfDevelopmentTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121102310,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter \"Nick\u0027s comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nick\u0027s comment",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepdefs.userEnterComment(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94782362,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user submit form",
+            "match": {
+              "location": "MyStepdefs.userSubmitForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37384655,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "form is submitted successfully",
+            "match": {
+              "location": "MyStepdefs.formIsSubmittedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2137681188,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.init()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Form filling and submition",
+        "description": "",
+        "id": "form-automation;form-filling-and-submition;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 774508073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190037934,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to the app url",
+            "match": {
+              "location": "MyStepdefs.someTestInfo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101585258,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills first name with value \"Sergii\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sergii",
+                  "offset": 34
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstNameWithValue(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108128760,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fills last name with value \"Opanasiuk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Opanasiuk",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstNameForValue(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82828931,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Select Gender",
+            "match": {
+              "location": "MyStepdefs.userSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176924263,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills date of birth \"09/09/1999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "09/09/1999",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.userFillsDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112738205,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills address with value \"4250 N Lassal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4250 N Lassal",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.userFillsAddressWithValueAddress(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96291207,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills \"test@ing2.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@ing2.com",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepdefs.userFills(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88696555,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills password \"Testing2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing2",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.userFillsPassword(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79474755,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user fills company \"Forte2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Forte2",
+                  "offset": 20
+                }
+              ],
+              "location": "MyStepdefs.userFillsCompany(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92104064,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user select role",
+            "match": {
+              "location": "MyStepdefs.userSelectRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58245705,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user select salary",
+            "match": {
+              "location": "MyStepdefs.userSelectSalary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56069225,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user select expectationOne",
+            "match": {
+              "location": "MyStepdefs.userSelectExpectationOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55773952,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user select expectationTwo",
+            "match": {
+              "location": "MyStepdefs.userSelectExpectationTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67227021,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select self developmentOne",
+            "match": {
+              "location": "MyStepdefs.userSelectSelfDevelopmentOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73061192,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select self developmentTwo",
+            "match": {
+              "location": "MyStepdefs.userSelectSelfDevelopmentTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113040265,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter \"Sergii\u0027s comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sergii\u0027s comment",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepdefs.userEnterComment(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85864076,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user submit form",
+            "match": {
+              "location": "MyStepdefs.userSubmitForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40725739,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "form is submitted successfully",
+            "match": {
+              "location": "MyStepdefs.formIsSubmittedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2141438271,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.init()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Form filling and submition",
+        "description": "",
+        "id": "form-automation;form-filling-and-submition;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 786450354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1868963163,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to the app url",
+            "match": {
+              "location": "MyStepdefs.someTestInfo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121080008,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills first name with value \"Benson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Benson",
+                  "offset": 34
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstNameWithValue(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207117174,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fills last name with value \"Kamary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kamary",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstNameForValue(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83757898,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Select Gender",
+            "match": {
+              "location": "MyStepdefs.userSelectGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183603038,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills date of birth \"05/06/2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05/06/2000",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.userFillsDateOfBirth(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108153002,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills address with value \"449 N Canal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "449 N Canal",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.userFillsAddressWithValueAddress(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106355672,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills \"test@ing3.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@ing3.com",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepdefs.userFills(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93995939,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills password \"Testing3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing3",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.userFillsPassword(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125384484,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user fills company \"Forte3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Forte3",
+                  "offset": 20
+                }
+              ],
+              "location": "MyStepdefs.userFillsCompany(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103997859,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user select role",
+            "match": {
+              "location": "MyStepdefs.userSelectRole()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63789452,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user select salary",
+            "match": {
+              "location": "MyStepdefs.userSelectSalary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56524496,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user select expectationOne",
+            "match": {
+              "location": "MyStepdefs.userSelectExpectationOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59211521,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user select expectationTwo",
+            "match": {
+              "location": "MyStepdefs.userSelectExpectationTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82794990,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select self developmentOne",
+            "match": {
+              "location": "MyStepdefs.userSelectSelfDevelopmentOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80387238,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select self developmentTwo",
+            "match": {
+              "location": "MyStepdefs.userSelectSelfDevelopmentTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131495503,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter \"Benson\u0027s comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Benson\u0027s comment",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepdefs.userEnterComment(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85319592,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user submit form",
+            "match": {
+              "location": "MyStepdefs.userSubmitForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34013510,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "form is submitted successfully",
+            "match": {
+              "location": "MyStepdefs.formIsSubmittedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Form automation",
+    "description": "As a user I want to fill my form\nalso I submit it",
+    "id": "form-automation",
+    "keyword": "Feature",
+    "uri": "FormSubmit.feature"
+  }
+]

@@ -1,0 +1,628 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5431423791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.init()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Form filling and submit",
+        "description": "",
+        "id": "registration;form-filling-and-submit;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8820348694,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9926330702,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates o the homepage",
+            "match": {
+              "location": "MyStepdefs.userNavigatesOTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4702481599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the login link",
+            "match": {
+              "location": "MyStepdefs.userClicksOnTheLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2572909783,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the create account",
+            "match": {
+              "location": "MyStepdefs.userClicksOnTheCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1008963874,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills firstname field with \"Andrii\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Andrii",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319780208,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills lastname field with \"Kifiak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kifiak",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417637131,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills primary phone with \"5555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5555555555",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307057305,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills company name with \"Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 30
+                }
+              ],
+              "location": "MyStepdefs.userFillsCompanyNameWith(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205734203,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects company type",
+            "match": {
+              "location": "MyStepdefs.userSelectsCompanyType()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 674196036,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fills username \"testUser@mail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testUser@mail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.userFillsUsername(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624434606,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user fills address \"4250 N Marine Dr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4250 N Marine Dr",
+                  "offset": 20
+                }
+              ],
+              "location": "MyStepdefs.userFillsAddress(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266322780,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fills City \"Chicago\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepdefs.userFillsCity(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174254461,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects state",
+            "match": {
+              "location": "MyStepdefs.userSelectsState()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285492710,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user fills postal code \"60613\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60613",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs.userFillsPostalCode(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38303,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user selects country",
+            "match": {
+              "location": "MyStepdefs.userSelectsCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261270661,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click on use billing address for shipping",
+            "match": {
+              "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3706665,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:22)\r\n",
+              "status": "pending"
+            },
+            "line": 22,
+            "name": "click submit",
+            "match": {
+              "location": "MyStepdefs.clickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "form submitted",
+            "match": {
+              "location": "MyStepdefs.formSubmitted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3556057912,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.init()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Form filling and submit",
+        "description": "",
+        "id": "registration;form-filling-and-submit;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 8798436462,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3393222597,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates o the homepage",
+            "match": {
+              "location": "MyStepdefs.userNavigatesOTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3512649933,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the login link",
+            "match": {
+              "location": "MyStepdefs.userClicksOnTheLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2540766768,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the create account",
+            "match": {
+              "location": "MyStepdefs.userClicksOnTheCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1244981699,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills firstname field with \"Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Two",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255868967,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills lastname field with \"Sec\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sec",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 439035423,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills primary phone with \"6666666666\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6666666666",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287449073,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills company name with \"New\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New",
+                  "offset": 30
+                }
+              ],
+              "location": "MyStepdefs.userFillsCompanyNameWith(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219340500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects company type",
+            "match": {
+              "location": "MyStepdefs.userSelectsCompanyType()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568422997,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fills username \"test@ing.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@ing.com",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.userFillsUsername(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405071804,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user fills address \"Whereever\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Whereever",
+                  "offset": 20
+                }
+              ],
+              "location": "MyStepdefs.userFillsAddress(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122005759,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fills City \"Some\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Some",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepdefs.userFillsCity(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84228323,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects state",
+            "match": {
+              "location": "MyStepdefs.userSelectsState()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271895141,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user fills postal code \"60606\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60606",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs.userFillsPostalCode(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84364,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user selects country",
+            "match": {
+              "location": "MyStepdefs.userSelectsCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280025077,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click on use billing address for shipping",
+            "match": {
+              "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460121,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:22)\r\n",
+              "status": "pending"
+            },
+            "line": 22,
+            "name": "click submit",
+            "match": {
+              "location": "MyStepdefs.clickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "form submitted",
+            "match": {
+              "location": "MyStepdefs.formSubmitted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "As a user I want to fill my form\r\nalso I submit it",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "RegistrationForm.feature"
+  }
+]

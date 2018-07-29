@@ -1,0 +1,302 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2694214896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.init()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "eShop purchase",
+        "description": "",
+        "id": "form-automation;eshop-purchase;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 798475542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2102333862,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to the app url",
+            "match": {
+              "location": "MyStepdefs.someTestInfo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167268039,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills username with value \"akifa@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akifa@mailinator.com",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.userFillsUsernameWithValue(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89857280,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fills password with value \"Testing1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing1!",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.userFillsPasswordWithValue(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1255471989,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click submit",
+            "match": {
+              "location": "MyStepdefs.userClickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1266006757,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select category",
+            "match": {
+              "location": "MyStepdefs.userSelectCategory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1386176705,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click blouse",
+            "match": {
+              "location": "MyStepdefs.userClickBlouse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65421449,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user add to cart",
+            "match": {
+              "location": "MyStepdefs.userAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2882806045,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click proceed",
+            "match": {
+              "location": "MyStepdefs.userClickProceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45960153,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verify address",
+            "match": {
+              "location": "MyStepdefs.userVerifyAddress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 647909047,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click checkout",
+            "match": {
+              "location": "MyStepdefs.userClickCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642468572,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click continueOne",
+            "match": {
+              "location": "MyStepdefs.userClickContinueOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62078910,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click continueTwo",
+            "match": {
+              "location": "MyStepdefs.userClickContinueTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 639882880,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click continueThree",
+            "match": {
+              "location": "MyStepdefs.userClickContinueThree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563275998,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click continueFour",
+            "match": {
+              "location": "MyStepdefs.userClickContinueFour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235112756,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click continueFive",
+            "match": {
+              "location": "MyStepdefs.userClickContinueFive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34322842,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verify price",
+            "match": {
+              "location": "MyStepdefs.userVerifyPrice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31982483,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user verify message",
+            "match": {
+              "location": "MyStepdefs.userVerifyMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037413746,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user go back",
+            "match": {
+              "location": "MyStepdefs.userGoBack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79514,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user verify orderPresence",
+            "match": {
+              "location": "MyStepdefs.userVerifyOrderpresence()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1101043683,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user logout",
+            "match": {
+              "location": "MyStepdefs.userLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Form automation",
+    "description": "As a user I want to login and purchase items",
+    "id": "form-automation",
+    "keyword": "Feature",
+    "uri": "Purchase.feature"
+  }
+]
