@@ -21,6 +21,7 @@ Feature: Registration
     And user click on use billing address for shipping
     And click submit
     Then form submitted
+
     Examples:
       | name   | ln     | primary_phone | company_name | username          | address          | city    | postalCode |
       | Andrii | Kifiak | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |

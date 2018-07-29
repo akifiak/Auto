@@ -100,7 +100,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 24,
+  "line": 25,
   "name": "",
   "description": "",
   "id": "registration;form-filling-and-submit;",
@@ -116,7 +116,7 @@ formatter.examples({
         "city",
         "postalCode"
       ],
-      "line": 25,
+      "line": 26,
       "id": "registration;form-filling-and-submit;;1"
     },
     {
@@ -130,7 +130,7 @@ formatter.examples({
         "Chicago",
         "60613"
       ],
-      "line": 26,
+      "line": 27,
       "id": "registration;form-filling-and-submit;;2"
     },
     {
@@ -144,18 +144,18 @@ formatter.examples({
         "Some",
         "60606"
       ],
-      "line": 27,
+      "line": 28,
       "id": "registration;form-filling-and-submit;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5431423791,
+  "duration": 5137090842,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 27,
   "name": "Form filling and submit",
   "description": "",
   "id": "registration;form-filling-and-submit;;2",
@@ -275,21 +275,21 @@ formatter.match({
   "location": "MyStepdefs.userNavigatesOTheHomepage()"
 });
 formatter.result({
-  "duration": 9926330702,
+  "duration": 3785462892,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheLoginLink()"
 });
 formatter.result({
-  "duration": 4702481599,
+  "duration": 2114302975,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheCreateAccount()"
 });
 formatter.result({
-  "duration": 2572909783,
+  "duration": 1935287789,
   "status": "passed"
 });
 formatter.match({
@@ -302,7 +302,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 1008963874,
+  "duration": 1687213243,
   "status": "passed"
 });
 formatter.match({
@@ -315,7 +315,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 319780208,
+  "duration": 343646864,
   "status": "passed"
 });
 formatter.match({
@@ -328,7 +328,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
 });
 formatter.result({
-  "duration": 417637131,
+  "duration": 501876605,
   "status": "passed"
 });
 formatter.match({
@@ -341,14 +341,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompanyNameWith(String)"
 });
 formatter.result({
-  "duration": 307057305,
+  "duration": 320371724,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCompanyType()"
 });
 formatter.result({
-  "duration": 205734203,
+  "duration": 218392621,
   "status": "passed"
 });
 formatter.match({
@@ -361,7 +361,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsUsername(String)"
 });
 formatter.result({
-  "duration": 674196036,
+  "duration": 634730844,
   "status": "passed"
 });
 formatter.match({
@@ -374,7 +374,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddress(String)"
 });
 formatter.result({
-  "duration": 624434606,
+  "duration": 645409627,
   "status": "passed"
 });
 formatter.match({
@@ -387,14 +387,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCity(String)"
 });
 formatter.result({
-  "duration": 266322780,
+  "duration": 441153726,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsState()"
 });
 formatter.result({
-  "duration": 174254461,
+  "duration": 197456874,
   "status": "passed"
 });
 formatter.match({
@@ -407,28 +407,28 @@ formatter.match({
   "location": "MyStepdefs.userFillsPostalCode(String)"
 });
 formatter.result({
-  "duration": 285492710,
+  "duration": 161594588,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCountry()"
 });
 formatter.result({
-  "duration": 38303,
+  "duration": 37819,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
 });
 formatter.result({
-  "duration": 261270661,
+  "duration": 169307069,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.clickSubmit()"
 });
 formatter.result({
-  "duration": 3706665,
+  "duration": 2149817,
   "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:22)\r\n",
   "status": "pending"
 });
@@ -439,15 +439,15 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 8820348694,
+  "duration": 8847622862,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3556057912,
+  "duration": 3691467301,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
+  "line": 28,
   "name": "Form filling and submit",
   "description": "",
   "id": "registration;form-filling-and-submit;;3",
@@ -567,21 +567,21 @@ formatter.match({
   "location": "MyStepdefs.userNavigatesOTheHomepage()"
 });
 formatter.result({
-  "duration": 3393222597,
+  "duration": 2819192815,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheLoginLink()"
 });
 formatter.result({
-  "duration": 3512649933,
+  "duration": 3286001316,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheCreateAccount()"
 });
 formatter.result({
-  "duration": 2540766768,
+  "duration": 1781439137,
   "status": "passed"
 });
 formatter.match({
@@ -594,7 +594,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 1244981699,
+  "duration": 1416309132,
   "status": "passed"
 });
 formatter.match({
@@ -607,7 +607,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 255868967,
+  "duration": 288302406,
   "status": "passed"
 });
 formatter.match({
@@ -620,7 +620,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
 });
 formatter.result({
-  "duration": 439035423,
+  "duration": 414503071,
   "status": "passed"
 });
 formatter.match({
@@ -633,14 +633,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompanyNameWith(String)"
 });
 formatter.result({
-  "duration": 287449073,
+  "duration": 238929338,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCompanyType()"
 });
 formatter.result({
-  "duration": 219340500,
+  "duration": 211964504,
   "status": "passed"
 });
 formatter.match({
@@ -653,7 +653,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsUsername(String)"
 });
 formatter.result({
-  "duration": 568422997,
+  "duration": 549108098,
   "status": "passed"
 });
 formatter.match({
@@ -666,7 +666,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddress(String)"
 });
 formatter.result({
-  "duration": 405071804,
+  "duration": 263784600,
   "status": "passed"
 });
 formatter.match({
@@ -679,14 +679,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCity(String)"
 });
 formatter.result({
-  "duration": 122005759,
+  "duration": 189419060,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsState()"
 });
 formatter.result({
-  "duration": 84228323,
+  "duration": 174578340,
   "status": "passed"
 });
 formatter.match({
@@ -699,28 +699,28 @@ formatter.match({
   "location": "MyStepdefs.userFillsPostalCode(String)"
 });
 formatter.result({
-  "duration": 271895141,
+  "duration": 347823832,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCountry()"
 });
 formatter.result({
-  "duration": 84364,
+  "duration": 61091,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
 });
 formatter.result({
-  "duration": 280025077,
+  "duration": 288938042,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.clickSubmit()"
 });
 formatter.result({
-  "duration": 460121,
+  "duration": 646303,
   "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:22)\r\n",
   "status": "pending"
 });
@@ -731,7 +731,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 8798436462,
+  "duration": 7132984663,
   "status": "passed"
 });
 });
