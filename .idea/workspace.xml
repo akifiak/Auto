@@ -2,143 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d42d0649-a4cc-4ce9-afe2-45adeee9797f" name="Default" comment="Automation Testing commit of all projects from lenovo">
-      <change afterPath="$PROJECT_DIR$/.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/CC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/CC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/Test Results - TestRunner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/src/test/resources/features/RegistrationForm.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/reports-pretty/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/reports-pretty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/reports-pretty/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/reports-pretty/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/reports-pretty/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/test-classes/TestRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/test-classes/features/RegistrationForm.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/test-classes/pages/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/test-classes/pages/RegistrationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CC/target/test-classes/stepdefs/MyStepdefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forte/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forte/target/test-classes/Forte/FirstTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forte/target/test-classes/Forte/RegistrationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkPOM/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkPOM/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkPOM/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkPOM/HomeWorkPOM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkPOM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkPOM/src/test/java/homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/Homework2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/out/production/Homework2/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework2/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_google_code_gson_gson_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/HomeWork1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/target/classes/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/.idea/dictionaries/AndriiKifiak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/comcucumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/src/test/resuources/features/FormSubmit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comcucumber/target/test-classes/stepdefs/MyStepdefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/Test Results - TestRunner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/src/test/resources/features/FormSubmit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/reports-pretty/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/reports-pretty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/reports-pretty/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/reports-pretty/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/reports-pretty/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/target/test-classes/features/FormSubmit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/src/test/java/pages/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/src/test/java/pages/WelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/src/test/resources/features/Purchase.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/reports-pretty/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/reports-pretty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/reports-pretty/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/reports-pretty/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/reports-pretty/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/target/test-classes/features/Purchase.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-cucumber-master2/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/mavenproject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/sources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/src/test/java/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/src/test/java/PoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/target/test-classes/FirstTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mavenproject/target/test-classes/PoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,26 +18,58 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="13" />
           <entry key="name" value="9" />
           <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="13" />
           <entry key="PLAIN_TEXT" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Forte" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test/src/com/company/Main.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="228" />
@@ -185,6 +84,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,17 +93,47 @@
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532887653524" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,8 +192,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25225767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,7 +225,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Forte" />
+    </ignored-roots>
     <MESSAGE value="Automation Testing commit of all projects from lenovo" />
     <option name="LAST_COMMIT_MESSAGE" value="Automation Testing commit of all projects from lenovo" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

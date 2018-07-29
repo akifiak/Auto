@@ -22,7 +22,7 @@ public class Main{
         WebElement firstName = (new WebDriverWait(driver, 10))
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='first-name']")));
         firstName.sendKeys("Andrii");
-
+//testing git
         WebElement lastName = (new WebDriverWait(driver, 10))
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='last-name']")));
         lastName.sendKeys("Kifiak");
