@@ -36,6 +36,7 @@ public class MyStepdefs {
     @Given("^user navigates o the homepage$")
     public void userNavigatesOTheHomepage() {
         driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
+        //driver.get("https://csauatfull-uat.cs14.force.com/shop");
     }
 
     @When("^user clicks on the login link$")
@@ -132,7 +133,6 @@ public class MyStepdefs {
     }
     @After
     public void close() throws Throwable {
-        Thread.sleep(6000);
         driver.close();
         driver.quit();
 

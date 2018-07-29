@@ -1,4 +1,4 @@
-#Author andrii.kifiak@gmail.com
+
 
 Feature: Registration
   As a user I want to fill my form
