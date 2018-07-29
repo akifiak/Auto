@@ -1,3 +1,5 @@
+#Author andrii.kifiak@gmail.com
+
 Feature: Registration
   As a user I want to fill my form
   also I submit it
@@ -23,6 +25,6 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name   | ln     | primary_phone | company_name | username          | address          | city    | postalCode |
-      | Andrii | Kifiak | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |
-      | Two    | Sec    | 6666666666    | New          | test@ing.com      | Whereever        | Some    | 60606      |
+      | name | ln   | primary_phone | company_name | username          | address          | city    | postalCode |
+      | Test | Test | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |
+      | Two  | Sec  | 6666666666    | New          | test@ing.com      | Whereever        | Some    | 60606      |

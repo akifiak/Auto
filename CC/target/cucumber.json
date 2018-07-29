@@ -1,12 +1,18 @@
 [
   {
-    "line": 1,
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author andrii.kifiak@gmail.com"
+      }
+    ],
+    "line": 3,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 5137090842,
+              "duration": 3862318612,
               "status": "passed"
             },
             "match": {
@@ -14,14 +20,14 @@
             }
           }
         ],
-        "line": 27,
+        "line": 29,
         "name": "Form filling and submit",
         "description": "",
         "id": "registration;form-filling-and-submit;;2",
         "after": [
           {
             "result": {
-              "duration": 8847622862,
+              "duration": 8688916029,
               "status": "passed"
             },
             "match": {
@@ -34,10 +40,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3785462892,
+              "duration": 3748072365,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "user navigates o the homepage",
             "match": {
               "location": "MyStepdefs.userNavigatesOTheHomepage()"
@@ -46,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 2114302975,
+              "duration": 1617251095,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "user clicks on the login link",
             "match": {
               "location": "MyStepdefs.userClicksOnTheLoginLink()"
@@ -58,10 +64,10 @@
           },
           {
             "result": {
-              "duration": 1935287789,
+              "duration": 1249030667,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "user clicks on the create account",
             "match": {
               "location": "MyStepdefs.userClicksOnTheCreateAccount()"
@@ -70,15 +76,15 @@
           },
           {
             "result": {
-              "duration": 1687213243,
+              "duration": 682720154,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user fills firstname field with \"Andrii\"",
+            "line": 12,
+            "name": "user fills firstname field with \"Test\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Andrii",
+                  "val": "Test",
                   "offset": 33
                 }
               ],
@@ -91,15 +97,15 @@
           },
           {
             "result": {
-              "duration": 343646864,
+              "duration": 80714628,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user fills lastname field with \"Kifiak\"",
+            "line": 13,
+            "name": "user fills lastname field with \"Test\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Kifiak",
+                  "val": "Test",
                   "offset": 32
                 }
               ],
@@ -112,10 +118,10 @@
           },
           {
             "result": {
-              "duration": 501876605,
+              "duration": 107849160,
               "status": "passed"
             },
-            "line": 12,
+            "line": 14,
             "name": "user fills primary phone with \"5555555555\"",
             "match": {
               "arguments": [
@@ -133,10 +139,10 @@
           },
           {
             "result": {
-              "duration": 320371724,
+              "duration": 84141051,
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "user fills company name with \"Test\"",
             "match": {
               "arguments": [
@@ -154,10 +160,10 @@
           },
           {
             "result": {
-              "duration": 218392621,
+              "duration": 57443851,
               "status": "passed"
             },
-            "line": 14,
+            "line": 16,
             "name": "user selects company type",
             "match": {
               "location": "MyStepdefs.userSelectsCompanyType()"
@@ -166,10 +172,10 @@
           },
           {
             "result": {
-              "duration": 634730844,
+              "duration": 180316034,
               "status": "passed"
             },
-            "line": 15,
+            "line": 17,
             "name": "user fills username \"testUser@mail.com\"",
             "match": {
               "arguments": [
@@ -187,10 +193,10 @@
           },
           {
             "result": {
-              "duration": 645409627,
+              "duration": 149644534,
               "status": "passed"
             },
-            "line": 16,
+            "line": 18,
             "name": "user fills address \"4250 N Marine Dr\"",
             "match": {
               "arguments": [
@@ -208,10 +214,10 @@
           },
           {
             "result": {
-              "duration": 441153726,
+              "duration": 92981288,
               "status": "passed"
             },
-            "line": 17,
+            "line": 19,
             "name": "user fills City \"Chicago\"",
             "match": {
               "arguments": [
@@ -229,10 +235,10 @@
           },
           {
             "result": {
-              "duration": 197456874,
+              "duration": 50710764,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "user selects state",
             "match": {
               "location": "MyStepdefs.userSelectsState()"
@@ -241,10 +247,10 @@
           },
           {
             "result": {
-              "duration": 161594588,
+              "duration": 90824683,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "user fills postal code \"60613\"",
             "match": {
               "arguments": [
@@ -262,10 +268,10 @@
           },
           {
             "result": {
-              "duration": 37819,
+              "duration": 22303,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "user selects country",
             "match": {
               "location": "MyStepdefs.userSelectsCountry()"
@@ -274,10 +280,10 @@
           },
           {
             "result": {
-              "duration": 169307069,
+              "duration": 86068322,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "user click on use billing address for shipping",
             "match": {
               "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
@@ -286,11 +292,11 @@
           },
           {
             "result": {
-              "duration": 2149817,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:22)\r\n",
+              "duration": 880484,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:24)\r\n",
               "status": "pending"
             },
-            "line": 22,
+            "line": 24,
             "name": "click submit",
             "match": {
               "location": "MyStepdefs.clickSubmit()"
@@ -301,7 +307,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 23,
+            "line": 25,
             "name": "form submitted",
             "match": {
               "location": "MyStepdefs.formSubmitted()"
@@ -314,7 +320,7 @@
         "before": [
           {
             "result": {
-              "duration": 3691467301,
+              "duration": 3217819530,
               "status": "passed"
             },
             "match": {
@@ -322,14 +328,14 @@
             }
           }
         ],
-        "line": 28,
+        "line": 30,
         "name": "Form filling and submit",
         "description": "",
         "id": "registration;form-filling-and-submit;;3",
         "after": [
           {
             "result": {
-              "duration": 7132984663,
+              "duration": 8618009883,
               "status": "passed"
             },
             "match": {
@@ -342,10 +348,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2819192815,
+              "duration": 2792308949,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "user navigates o the homepage",
             "match": {
               "location": "MyStepdefs.userNavigatesOTheHomepage()"
@@ -354,10 +360,10 @@
           },
           {
             "result": {
-              "duration": 3286001316,
+              "duration": 1765867265,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "user clicks on the login link",
             "match": {
               "location": "MyStepdefs.userClicksOnTheLoginLink()"
@@ -366,10 +372,10 @@
           },
           {
             "result": {
-              "duration": 1781439137,
+              "duration": 424255309,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "user clicks on the create account",
             "match": {
               "location": "MyStepdefs.userClicksOnTheCreateAccount()"
@@ -378,10 +384,10 @@
           },
           {
             "result": {
-              "duration": 1416309132,
+              "duration": 611105643,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "user fills firstname field with \"Two\"",
             "match": {
               "arguments": [
@@ -399,10 +405,10 @@
           },
           {
             "result": {
-              "duration": 288302406,
+              "duration": 83741535,
               "status": "passed"
             },
-            "line": 11,
+            "line": 13,
             "name": "user fills lastname field with \"Sec\"",
             "match": {
               "arguments": [
@@ -420,10 +426,10 @@
           },
           {
             "result": {
-              "duration": 414503071,
+              "duration": 130000422,
               "status": "passed"
             },
-            "line": 12,
+            "line": 14,
             "name": "user fills primary phone with \"6666666666\"",
             "match": {
               "arguments": [
@@ -441,10 +447,10 @@
           },
           {
             "result": {
-              "duration": 238929338,
+              "duration": 87167473,
               "status": "passed"
             },
-            "line": 13,
+            "line": 15,
             "name": "user fills company name with \"New\"",
             "match": {
               "arguments": [
@@ -462,10 +468,10 @@
           },
           {
             "result": {
-              "duration": 211964504,
+              "duration": 61823000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 16,
             "name": "user selects company type",
             "match": {
               "location": "MyStepdefs.userSelectsCompanyType()"
@@ -474,10 +480,10 @@
           },
           {
             "result": {
-              "duration": 549108098,
+              "duration": 158893014,
               "status": "passed"
             },
-            "line": 15,
+            "line": 17,
             "name": "user fills username \"test@ing.com\"",
             "match": {
               "arguments": [
@@ -495,10 +501,10 @@
           },
           {
             "result": {
-              "duration": 263784600,
+              "duration": 133102966,
               "status": "passed"
             },
-            "line": 16,
+            "line": 18,
             "name": "user fills address \"Whereever\"",
             "match": {
               "arguments": [
@@ -516,10 +522,10 @@
           },
           {
             "result": {
-              "duration": 189419060,
+              "duration": 90814501,
               "status": "passed"
             },
-            "line": 17,
+            "line": 19,
             "name": "user fills City \"Some\"",
             "match": {
               "arguments": [
@@ -537,10 +543,10 @@
           },
           {
             "result": {
-              "duration": 174578340,
+              "duration": 53790034,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "user selects state",
             "match": {
               "location": "MyStepdefs.userSelectsState()"
@@ -549,10 +555,10 @@
           },
           {
             "result": {
-              "duration": 347823832,
+              "duration": 106599221,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "user fills postal code \"60606\"",
             "match": {
               "arguments": [
@@ -570,10 +576,10 @@
           },
           {
             "result": {
-              "duration": 61091,
+              "duration": 20849,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "user selects country",
             "match": {
               "location": "MyStepdefs.userSelectsCountry()"
@@ -582,10 +588,10 @@
           },
           {
             "result": {
-              "duration": 288938042,
+              "duration": 93662500,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "user click on use billing address for shipping",
             "match": {
               "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
@@ -594,11 +600,11 @@
           },
           {
             "result": {
-              "duration": 646303,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:22)\r\n",
+              "duration": 257939,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.clickSubmit(MyStepdefs.java:125)\r\n\tat ✽.And click submit(RegistrationForm.feature:24)\r\n",
               "status": "pending"
             },
-            "line": 22,
+            "line": 24,
             "name": "click submit",
             "match": {
               "location": "MyStepdefs.clickSubmit()"
@@ -609,7 +615,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 23,
+            "line": 25,
             "name": "form submitted",
             "match": {
               "location": "MyStepdefs.formSubmitted()"
