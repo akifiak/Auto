@@ -44,6 +44,9 @@ public class RegistrationPage {
     @FindBy(xpath="//a[@id='useBillingAddress']")
     private WebElement useBilling;
 
+    @FindBy(xpath="//input[@value='Submit']")
+    private WebElement submit;
+
     public void setName(String name) {
 
         this.name.sendKeys(name);
@@ -72,22 +75,31 @@ public class RegistrationPage {
         this.userName.sendKeys(userName);
     }
 
-    public void setBillingAddress(String billingAddress) {
+    public void setBillingAddress(String billingAddress)
+    {
         this.billingAddress.sendKeys(billingAddress);
     }
 
-    public void setBillingCity(String billingCity) {
+    public void setBillingCity(String billingCity)
+    {
         this.billingCity.sendKeys(billingCity);
     }
-    public void setBillingState(){
+    public void setBillingState()
+    {
         billingState.click();
     }
 
-    public void setBillingPostal(String billingPostal){
+    public void setBillingPostal(String billingPostal)
+    {
         this.billingPostal.sendKeys(billingPostal);
     }
-    public void setUseBilling(){
+    public void setUseBilling()
+    {
         useBilling.click();
+    }
+
+    public void Submitting(){
+        submit.click();
     }
 }
 

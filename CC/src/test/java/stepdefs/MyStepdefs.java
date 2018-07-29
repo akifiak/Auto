@@ -121,8 +121,8 @@ public class MyStepdefs {
 
     @When("^click submit$")
     public void clickSubmit() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        registrationPage.Submitting();
     }
 
     @Then("^form submitted$")
