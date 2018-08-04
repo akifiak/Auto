@@ -14,6 +14,7 @@ import pages.RegistrationPage;
 import java.util.concurrent.TimeUnit;
 
 
+
 public class MyStepdefs {
     HomePage homePage;
     WebDriver driver;
@@ -35,7 +36,7 @@ public class MyStepdefs {
 
     @Given("^user navigates o the homepage$")
     public void userNavigatesOTheHomepage() {
-        driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
+       driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
         //driver.get("https://csauatfull-uat.cs14.force.com/shop");
     }
 

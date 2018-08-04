@@ -146,12 +146,40 @@ formatter.examples({
       ],
       "line": 30,
       "id": "registration;form-filling-and-submit;;3"
+    },
+    {
+      "cells": [
+        "Two",
+        "Sec",
+        "7777777777",
+        "New",
+        "test@ing.com",
+        "Whereever",
+        "Some",
+        "60606"
+      ],
+      "line": 31,
+      "id": "registration;form-filling-and-submit;;4"
+    },
+    {
+      "cells": [
+        "Two",
+        "Sec",
+        "8888888888",
+        "New",
+        "test@ing.com",
+        "Whereever",
+        "Some",
+        "60606"
+      ],
+      "line": 32,
+      "id": "registration;form-filling-and-submit;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4536643133,
+  "duration": 4805892458,
   "status": "passed"
 });
 formatter.scenario({
@@ -275,21 +303,21 @@ formatter.match({
   "location": "MyStepdefs.userNavigatesOTheHomepage()"
 });
 formatter.result({
-  "duration": 4138505629,
+  "duration": 2945632511,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheLoginLink()"
 });
 formatter.result({
-  "duration": 1842047107,
+  "duration": 2095854499,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheCreateAccount()"
 });
 formatter.result({
-  "duration": 1958641475,
+  "duration": 1947795419,
   "status": "passed"
 });
 formatter.match({
@@ -302,7 +330,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 1601117769,
+  "duration": 983256250,
   "status": "passed"
 });
 formatter.match({
@@ -315,7 +343,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 183865607,
+  "duration": 114924550,
   "status": "passed"
 });
 formatter.match({
@@ -328,7 +356,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
 });
 formatter.result({
-  "duration": 246873092,
+  "duration": 155953379,
   "status": "passed"
 });
 formatter.match({
@@ -341,14 +369,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompanyNameWith(String)"
 });
 formatter.result({
-  "duration": 159672165,
+  "duration": 176413005,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCompanyType()"
 });
 formatter.result({
-  "duration": 127574242,
+  "duration": 187983424,
   "status": "passed"
 });
 formatter.match({
@@ -361,7 +389,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsUsername(String)"
 });
 formatter.result({
-  "duration": 363057764,
+  "duration": 364121521,
   "status": "passed"
 });
 formatter.match({
@@ -374,7 +402,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddress(String)"
 });
 formatter.result({
-  "duration": 309156699,
+  "duration": 505727270,
   "status": "passed"
 });
 formatter.match({
@@ -387,14 +415,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCity(String)"
 });
 formatter.result({
-  "duration": 192881361,
+  "duration": 302521066,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsState()"
 });
 formatter.result({
-  "duration": 112634128,
+  "duration": 164022708,
   "status": "passed"
 });
 formatter.match({
@@ -407,44 +435,44 @@ formatter.match({
   "location": "MyStepdefs.userFillsPostalCode(String)"
 });
 formatter.result({
-  "duration": 135671207,
+  "duration": 236503158,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCountry()"
 });
 formatter.result({
-  "duration": 24727,
+  "duration": 34909,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
 });
 formatter.result({
-  "duration": 155341500,
+  "duration": 200488145,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.clickSubmit()"
 });
 formatter.result({
-  "duration": 251793332,
+  "duration": 198699056,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.formSubmitted()"
 });
 formatter.result({
-  "duration": 3030301,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.formSubmitted(MyStepdefs.java:132)\r\n\tat ✽.Then form submitted(RegistrationForm.feature:25)\r\n",
+  "duration": 2663756,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.formSubmitted(MyStepdefs.java:133)\r\n\tat ✽.Then form submitted(RegistrationForm.feature:25)\r\n",
   "status": "pending"
 });
 formatter.after({
-  "duration": 8781832348,
+  "duration": 2725900254,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3571174026,
+  "duration": 3453859174,
   "status": "passed"
 });
 formatter.scenario({
@@ -568,21 +596,21 @@ formatter.match({
   "location": "MyStepdefs.userNavigatesOTheHomepage()"
 });
 formatter.result({
-  "duration": 3811205425,
+  "duration": 2574720691,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheLoginLink()"
 });
 formatter.result({
-  "duration": 2247925213,
+  "duration": 1167218828,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClicksOnTheCreateAccount()"
 });
 formatter.result({
-  "duration": 2213181957,
+  "duration": 751395030,
   "status": "passed"
 });
 formatter.match({
@@ -595,7 +623,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 1015087023,
+  "duration": 764049569,
   "status": "passed"
 });
 formatter.match({
@@ -608,7 +636,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
 });
 formatter.result({
-  "duration": 162157497,
+  "duration": 112901279,
   "status": "passed"
 });
 formatter.match({
@@ -621,7 +649,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
 });
 formatter.result({
-  "duration": 232783887,
+  "duration": 234272856,
   "status": "passed"
 });
 formatter.match({
@@ -634,14 +662,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompanyNameWith(String)"
 });
 formatter.result({
-  "duration": 157417136,
+  "duration": 175677975,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCompanyType()"
 });
 formatter.result({
-  "duration": 124780546,
+  "duration": 153996532,
   "status": "passed"
 });
 formatter.match({
@@ -654,7 +682,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsUsername(String)"
 });
 formatter.result({
-  "duration": 261373934,
+  "duration": 286110407,
   "status": "passed"
 });
 formatter.match({
@@ -667,7 +695,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddress(String)"
 });
 formatter.result({
-  "duration": 225824375,
+  "duration": 227379768,
   "status": "passed"
 });
 formatter.match({
@@ -680,14 +708,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsCity(String)"
 });
 formatter.result({
-  "duration": 163417617,
+  "duration": 172121129,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsState()"
 });
 formatter.result({
-  "duration": 107115099,
+  "duration": 100736921,
   "status": "passed"
 });
 formatter.match({
@@ -700,40 +728,626 @@ formatter.match({
   "location": "MyStepdefs.userFillsPostalCode(String)"
 });
 formatter.result({
-  "duration": 242483762,
+  "duration": 170159432,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectsCountry()"
 });
 formatter.result({
-  "duration": 26182,
+  "duration": 26667,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
 });
 formatter.result({
-  "duration": 187824878,
+  "duration": 180039670,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.clickSubmit()"
 });
 formatter.result({
-  "duration": 177992641,
+  "duration": 172234098,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.formSubmitted()"
 });
 formatter.result({
-  "duration": 287515,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.formSubmitted(MyStepdefs.java:132)\r\n\tat ✽.Then form submitted(RegistrationForm.feature:25)\r\n",
+  "duration": 299637,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.formSubmitted(MyStepdefs.java:133)\r\n\tat ✽.Then form submitted(RegistrationForm.feature:25)\r\n",
   "status": "pending"
 });
 formatter.after({
-  "duration": 8880644907,
+  "duration": 2768707021,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3634854965,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 31,
+  "name": "Form filling and submit",
+  "description": "",
+  "id": "registration;form-filling-and-submit;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 9,
+  "name": "user navigates o the homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 10,
+  "name": "user clicks on the login link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "user clicks on the create account",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "user fills firstname field with \"Two\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "user fills lastname field with \"Sec\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "user fills primary phone with \"7777777777\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "user fills company name with \"New\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "user selects company type",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "user fills username \"test@ing.com\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "user fills address \"Whereever\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "user fills City \"Some\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "user selects state",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "user fills postal code \"60606\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "user selects country",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "user click on use billing address for shipping",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "click submit",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "form submitted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyStepdefs.userNavigatesOTheHomepage()"
+});
+formatter.result({
+  "duration": 3725546800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userClicksOnTheLoginLink()"
+});
+formatter.result({
+  "duration": 1040786404,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userClicksOnTheCreateAccount()"
+});
+formatter.result({
+  "duration": 1570995117,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Two",
+      "offset": 33
+    }
+  ],
+  "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
+});
+formatter.result({
+  "duration": 866211944,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Sec",
+      "offset": 32
+    }
+  ],
+  "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
+});
+formatter.result({
+  "duration": 139548538,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7777777777",
+      "offset": 31
+    }
+  ],
+  "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
+});
+formatter.result({
+  "duration": 193206210,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "New",
+      "offset": 30
+    }
+  ],
+  "location": "MyStepdefs.userFillsCompanyNameWith(String)"
+});
+formatter.result({
+  "duration": 166469738,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userSelectsCompanyType()"
+});
+formatter.result({
+  "duration": 119354608,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@ing.com",
+      "offset": 21
+    }
+  ],
+  "location": "MyStepdefs.userFillsUsername(String)"
+});
+formatter.result({
+  "duration": 312404697,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Whereever",
+      "offset": 20
+    }
+  ],
+  "location": "MyStepdefs.userFillsAddress(String)"
+});
+formatter.result({
+  "duration": 390033750,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Some",
+      "offset": 17
+    }
+  ],
+  "location": "MyStepdefs.userFillsCity(String)"
+});
+formatter.result({
+  "duration": 247475274,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userSelectsState()"
+});
+formatter.result({
+  "duration": 168424161,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "60606",
+      "offset": 24
+    }
+  ],
+  "location": "MyStepdefs.userFillsPostalCode(String)"
+});
+formatter.result({
+  "duration": 327522750,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userSelectsCountry()"
+});
+formatter.result({
+  "duration": 65939,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
+});
+formatter.result({
+  "duration": 255905330,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.clickSubmit()"
+});
+formatter.result({
+  "duration": 272167141,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.formSubmitted()"
+});
+formatter.result({
+  "duration": 446061,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.formSubmitted(MyStepdefs.java:133)\r\n\tat ✽.Then form submitted(RegistrationForm.feature:25)\r\n",
+  "status": "pending"
+});
+formatter.after({
+  "duration": 2784208589,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3507183269,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "Form filling and submit",
+  "description": "",
+  "id": "registration;form-filling-and-submit;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 9,
+  "name": "user navigates o the homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 10,
+  "name": "user clicks on the login link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "user clicks on the create account",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "user fills firstname field with \"Two\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "user fills lastname field with \"Sec\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "user fills primary phone with \"8888888888\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "user fills company name with \"New\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "user selects company type",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "user fills username \"test@ing.com\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "user fills address \"Whereever\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "user fills City \"Some\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "user selects state",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "user fills postal code \"60606\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 22,
+  "name": "user selects country",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "user click on use billing address for shipping",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "click submit",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "form submitted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyStepdefs.userNavigatesOTheHomepage()"
+});
+formatter.result({
+  "duration": 2875937514,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userClicksOnTheLoginLink()"
+});
+formatter.result({
+  "duration": 1366114246,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userClicksOnTheCreateAccount()"
+});
+formatter.result({
+  "duration": 1294247130,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Two",
+      "offset": 33
+    }
+  ],
+  "location": "MyStepdefs.userFillsFirstnameFieldWith(String)"
+});
+formatter.result({
+  "duration": 981124857,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Sec",
+      "offset": 32
+    }
+  ],
+  "location": "MyStepdefs.userFillsLastnameFieldWith(String)"
+});
+formatter.result({
+  "duration": 172870219,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "8888888888",
+      "offset": 31
+    }
+  ],
+  "location": "MyStepdefs.userFillsPrimaryPhoneWith(String)"
+});
+formatter.result({
+  "duration": 242025580,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "New",
+      "offset": 30
+    }
+  ],
+  "location": "MyStepdefs.userFillsCompanyNameWith(String)"
+});
+formatter.result({
+  "duration": 155713379,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userSelectsCompanyType()"
+});
+formatter.result({
+  "duration": 122512425,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@ing.com",
+      "offset": 21
+    }
+  ],
+  "location": "MyStepdefs.userFillsUsername(String)"
+});
+formatter.result({
+  "duration": 327396205,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Whereever",
+      "offset": 20
+    }
+  ],
+  "location": "MyStepdefs.userFillsAddress(String)"
+});
+formatter.result({
+  "duration": 237683279,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Some",
+      "offset": 17
+    }
+  ],
+  "location": "MyStepdefs.userFillsCity(String)"
+});
+formatter.result({
+  "duration": 174863915,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userSelectsState()"
+});
+formatter.result({
+  "duration": 106873160,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "60606",
+      "offset": 24
+    }
+  ],
+  "location": "MyStepdefs.userFillsPostalCode(String)"
+});
+formatter.result({
+  "duration": 221375408,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userSelectsCountry()"
+});
+formatter.result({
+  "duration": 29576,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.userClickOnUseBillingAddressForShipping()"
+});
+formatter.result({
+  "duration": 186895909,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.clickSubmit()"
+});
+formatter.result({
+  "duration": 157269742,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.formSubmitted()"
+});
+formatter.result({
+  "duration": 348121,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepdefs.MyStepdefs.formSubmitted(MyStepdefs.java:133)\r\n\tat ✽.Then form submitted(RegistrationForm.feature:25)\r\n",
+  "status": "pending"
+});
+formatter.after({
+  "duration": 2955411900,
   "status": "passed"
 });
 });

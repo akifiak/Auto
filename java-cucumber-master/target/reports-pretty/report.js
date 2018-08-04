@@ -170,7 +170,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3081979477,
+  "duration": 2781840106,
   "status": "passed"
 });
 formatter.scenario({
@@ -299,7 +299,7 @@ formatter.match({
   "location": "MyStepdefs.someTestInfo()"
 });
 formatter.result({
-  "duration": 7513086035,
+  "duration": 1185271183,
   "status": "passed"
 });
 formatter.match({
@@ -312,7 +312,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstNameWithValue(String)"
 });
 formatter.result({
-  "duration": 104460403,
+  "duration": 200257842,
   "status": "passed"
 });
 formatter.match({
@@ -325,14 +325,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstNameForValue(String)"
 });
 formatter.result({
-  "duration": 100763441,
+  "duration": 72597783,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectGender()"
 });
 formatter.result({
-  "duration": 82127841,
+  "duration": 71678511,
   "status": "passed"
 });
 formatter.match({
@@ -345,7 +345,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsDateOfBirth(String)"
 });
 formatter.result({
-  "duration": 183863401,
+  "duration": 128732059,
   "status": "passed"
 });
 formatter.match({
@@ -358,7 +358,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddressWithValueAddress(String)"
 });
 formatter.result({
-  "duration": 127649207,
+  "duration": 86508565,
   "status": "passed"
 });
 formatter.match({
@@ -371,7 +371,7 @@ formatter.match({
   "location": "MyStepdefs.userFills(String)"
 });
 formatter.result({
-  "duration": 112102086,
+  "duration": 72432450,
   "status": "passed"
 });
 formatter.match({
@@ -384,7 +384,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPassword(String)"
 });
 formatter.result({
-  "duration": 102574831,
+  "duration": 64681181,
   "status": "passed"
 });
 formatter.match({
@@ -397,49 +397,49 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompany(String)"
 });
 formatter.result({
-  "duration": 95055816,
+  "duration": 72279723,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectRole()"
 });
 formatter.result({
-  "duration": 138416701,
+  "duration": 82306869,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSalary()"
 });
 formatter.result({
-  "duration": 73239616,
+  "duration": 48866400,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectExpectationOne()"
 });
 formatter.result({
-  "duration": 59984368,
+  "duration": 49548583,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectExpectationTwo()"
 });
 formatter.result({
-  "duration": 61147033,
+  "duration": 44242887,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSelfDevelopmentOne()"
 });
 formatter.result({
-  "duration": 70232591,
+  "duration": 61053062,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSelfDevelopmentTwo()"
 });
 formatter.result({
-  "duration": 79636694,
+  "duration": 64534757,
   "status": "passed"
 });
 formatter.match({
@@ -452,29 +452,29 @@ formatter.match({
   "location": "MyStepdefs.userEnterComment(String)"
 });
 formatter.result({
-  "duration": 121102310,
+  "duration": 70518753,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSubmitForm()"
 });
 formatter.result({
-  "duration": 94782362,
+  "duration": 74564327,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.formIsSubmittedSuccessfully()"
 });
 formatter.result({
-  "duration": 37384655,
+  "duration": 30468834,
   "status": "passed"
 });
 formatter.after({
-  "duration": 768296692,
+  "duration": 665222466,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2137681188,
+  "duration": 2021502051,
   "status": "passed"
 });
 formatter.scenario({
@@ -603,7 +603,7 @@ formatter.match({
   "location": "MyStepdefs.someTestInfo()"
 });
 formatter.result({
-  "duration": 1190037934,
+  "duration": 440114696,
   "status": "passed"
 });
 formatter.match({
@@ -616,7 +616,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstNameWithValue(String)"
 });
 formatter.result({
-  "duration": 101585258,
+  "duration": 174843551,
   "status": "passed"
 });
 formatter.match({
@@ -629,14 +629,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstNameForValue(String)"
 });
 formatter.result({
-  "duration": 108128760,
+  "duration": 74857661,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectGender()"
 });
 formatter.result({
-  "duration": 82828931,
+  "duration": 68178391,
   "status": "passed"
 });
 formatter.match({
@@ -649,7 +649,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsDateOfBirth(String)"
 });
 formatter.result({
-  "duration": 176924263,
+  "duration": 129106361,
   "status": "passed"
 });
 formatter.match({
@@ -662,7 +662,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddressWithValueAddress(String)"
 });
 formatter.result({
-  "duration": 112738205,
+  "duration": 89696442,
   "status": "passed"
 });
 formatter.match({
@@ -675,7 +675,7 @@ formatter.match({
   "location": "MyStepdefs.userFills(String)"
 });
 formatter.result({
-  "duration": 96291207,
+  "duration": 72220087,
   "status": "passed"
 });
 formatter.match({
@@ -688,7 +688,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPassword(String)"
 });
 formatter.result({
-  "duration": 88696555,
+  "duration": 61823001,
   "status": "passed"
 });
 formatter.match({
@@ -701,49 +701,49 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompany(String)"
 });
 formatter.result({
-  "duration": 79474755,
+  "duration": 60954152,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectRole()"
 });
 formatter.result({
-  "duration": 92104064,
+  "duration": 77273659,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSalary()"
 });
 formatter.result({
-  "duration": 58245705,
+  "duration": 50003855,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectExpectationOne()"
 });
 formatter.result({
-  "duration": 56069225,
+  "duration": 46260826,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectExpectationTwo()"
 });
 formatter.result({
-  "duration": 55773952,
+  "duration": 45060826,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSelfDevelopmentOne()"
 });
 formatter.result({
-  "duration": 67227021,
+  "duration": 80912931,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSelfDevelopmentTwo()"
 });
 formatter.result({
-  "duration": 73061192,
+  "duration": 62461545,
   "status": "passed"
 });
 formatter.match({
@@ -756,29 +756,29 @@ formatter.match({
   "location": "MyStepdefs.userEnterComment(String)"
 });
 formatter.result({
-  "duration": 113040265,
+  "duration": 78327719,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSubmitForm()"
 });
 formatter.result({
-  "duration": 85864076,
+  "duration": 84272929,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.formIsSubmittedSuccessfully()"
 });
 formatter.result({
-  "duration": 40725739,
+  "duration": 29514167,
   "status": "passed"
 });
 formatter.after({
-  "duration": 774508073,
+  "duration": 674827794,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2141438271,
+  "duration": 2031823015,
   "status": "passed"
 });
 formatter.scenario({
@@ -907,7 +907,7 @@ formatter.match({
   "location": "MyStepdefs.someTestInfo()"
 });
 formatter.result({
-  "duration": 1868963163,
+  "duration": 909462832,
   "status": "passed"
 });
 formatter.match({
@@ -920,7 +920,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstNameWithValue(String)"
 });
 formatter.result({
-  "duration": 121080008,
+  "duration": 128421756,
   "status": "passed"
 });
 formatter.match({
@@ -933,14 +933,14 @@ formatter.match({
   "location": "MyStepdefs.userFillsFirstNameForValue(String)"
 });
 formatter.result({
-  "duration": 207117174,
+  "duration": 75585902,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectGender()"
 });
 formatter.result({
-  "duration": 83757898,
+  "duration": 80496446,
   "status": "passed"
 });
 formatter.match({
@@ -953,7 +953,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsDateOfBirth(String)"
 });
 formatter.result({
-  "duration": 183603038,
+  "duration": 130950724,
   "status": "passed"
 });
 formatter.match({
@@ -966,7 +966,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsAddressWithValueAddress(String)"
 });
 formatter.result({
-  "duration": 108153002,
+  "duration": 81508809,
   "status": "passed"
 });
 formatter.match({
@@ -979,7 +979,7 @@ formatter.match({
   "location": "MyStepdefs.userFills(String)"
 });
 formatter.result({
-  "duration": 106355672,
+  "duration": 71105421,
   "status": "passed"
 });
 formatter.match({
@@ -992,7 +992,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsPassword(String)"
 });
 formatter.result({
-  "duration": 93995939,
+  "duration": 63347364,
   "status": "passed"
 });
 formatter.match({
@@ -1005,49 +1005,49 @@ formatter.match({
   "location": "MyStepdefs.userFillsCompany(String)"
 });
 formatter.result({
-  "duration": 125384484,
+  "duration": 62198758,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectRole()"
 });
 formatter.result({
-  "duration": 103997859,
+  "duration": 74018874,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSalary()"
 });
 formatter.result({
-  "duration": 63789452,
+  "duration": 46901796,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectExpectationOne()"
 });
 formatter.result({
-  "duration": 56524496,
+  "duration": 44822766,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectExpectationTwo()"
 });
 formatter.result({
-  "duration": 59211521,
+  "duration": 43103010,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSelfDevelopmentOne()"
 });
 formatter.result({
-  "duration": 82794990,
+  "duration": 60126031,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectSelfDevelopmentTwo()"
 });
 formatter.result({
-  "duration": 80387238,
+  "duration": 64587120,
   "status": "passed"
 });
 formatter.match({
@@ -1060,25 +1060,25 @@ formatter.match({
   "location": "MyStepdefs.userEnterComment(String)"
 });
 formatter.result({
-  "duration": 131495503,
+  "duration": 73010873,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSubmitForm()"
 });
 formatter.result({
-  "duration": 85319592,
+  "duration": 74559479,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.formIsSubmittedSuccessfully()"
 });
 formatter.result({
-  "duration": 34013510,
+  "duration": 29813319,
   "status": "passed"
 });
 formatter.after({
-  "duration": 786450354,
+  "duration": 663020769,
   "status": "passed"
 });
 });
