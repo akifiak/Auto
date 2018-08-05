@@ -24,10 +24,8 @@ public class MyStepdefs {
 
     @Before
     public void init() {
-       // System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
-       
-        System.setProperty("webdriver.chrome.driver", "\Users\Andrii\Downloads\chromedriver");
-        
+       System.setProperty("webdriver.chrome.driver", "c://chromedriver.exe");
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
