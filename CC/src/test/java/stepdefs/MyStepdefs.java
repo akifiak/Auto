@@ -43,7 +43,7 @@ public class MyStepdefs {
 
     @When("^user clicks on the login link$")
     public void userClicksOnTheLoginLink() {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         homePage.clickLogin();
     }
 

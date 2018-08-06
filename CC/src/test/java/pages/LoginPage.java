@@ -13,5 +13,7 @@ public class LoginPage {
     @FindBy(xpath = "//input[@class='btn btn-default btn-sm register cc_register']")
     private WebElement reg;
 
+
+
     public void clickReg() { reg.click(); }
 }
