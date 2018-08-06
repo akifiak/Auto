@@ -10,7 +10,7 @@ public class LoginPage {
             PageFactory.initElements(driver, this);
 
     }
-    @FindBy(xpath = "//input[@value='Create an Account']")
+    @FindBy(xpath = "//input[@class='btn btn-default btn-sm register cc_register']")
     private WebElement reg;
 
     public void clickReg() { reg.click(); }

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="jenkins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-cucumber-master2/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cucumber-master2/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-cucumber-master2/target/reports-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cucumber-master2/target/reports-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,24 +18,25 @@
     <session id="-1280937713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="feature" value="11" />
+          <entry key="feature" value="12" />
           <entry key="html" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="42" />
+          <entry key="java" value="46" />
           <entry key="json" value="1" />
           <entry key="xml" value="5" />
         </counts>
@@ -44,10 +44,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Cucumber" value="11" />
+          <entry key="Cucumber" value="12" />
           <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="46" />
           <entry key="JSON" value="1" />
           <entry key="XML" value="5" />
         </counts>
@@ -55,7 +55,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="70" />
-          <entry key="java" value="254" />
+          <entry key="java" value="274" />
           <entry key="txt" value="85" />
           <entry key="xml" value="49" />
         </counts>
@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="70" />
-          <entry key="JAVA" value="254" />
+          <entry key="JAVA" value="274" />
           <entry key="PLAIN_TEXT" value="85" />
           <entry key="XML" value="49" />
         </counts>
@@ -72,20 +72,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="237">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#userClicksOnTheLoginLink#0;class#MyStepdefs#0" />
+                <element signature="method#userFillsFirstnameFieldWith#0;class#MyStepdefs#0" />
+                <element signature="method#userFillsLastnameFieldWith#0;class#MyStepdefs#0" />
+                <element signature="method#userFillsPrimaryPhoneWith#0;class#MyStepdefs#0" />
+                <element signature="method#userSelectsCompanyType#0;class#MyStepdefs#0" />
+                <element signature="method#userFillsUsername#0;class#MyStepdefs#0" />
+                <element signature="method#userFillsAddress#0;class#MyStepdefs#0" />
+                <element signature="method#userFillsCity#0;class#MyStepdefs#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -125,15 +145,15 @@
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Wait.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/BrowserStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BrowserStack.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -152,10 +172,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="204" />
-    <option name="y" value="36" />
-    <option name="width" value="2100" />
-    <option name="height" value="1290" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2583" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,9 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,27 +195,54 @@
             <path>
               <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
               <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
               <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepdefs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533409387212" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-cucumber-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16699219" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -378,16 +424,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533406541422</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jenkins">
+      <created>1533436363498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533436363498</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jenkins">
+      <created>1533437323525</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533437323525</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2018.07.29 at 23h 19m 22s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2018.07.30 at 16h 59m 54s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2018.08.04 at 07h 51m 47s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
@@ -412,11 +466,18 @@
     <history-entry file="TestRunner - 2018.08.04 at 16h 15m 41s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 21h 35m 42s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2018.08.04 at 21h 48m 32s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="944" extended-state="7" />
+    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3154726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32390127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,42 +550,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BrowserStack.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="method#userClicksOnTheLoginLink#0;class#MyStepdefs#0" />
-            <element signature="method#userClicksOnTheCreateAccount#0;class#MyStepdefs#0" />
-            <element signature="method#userFillsFirstnameFieldWith#0;class#MyStepdefs#0" />
-            <element signature="method#userFillsLastnameFieldWith#0;class#MyStepdefs#0" />
-            <element signature="method#userFillsPrimaryPhoneWith#0;class#MyStepdefs#0" />
-            <element signature="method#userSelectsCompanyType#0;class#MyStepdefs#0" />
-            <element signature="method#userFillsUsername#0;class#MyStepdefs#0" />
-            <element signature="method#userFillsAddress#0;class#MyStepdefs#0" />
-            <element signature="method#userFillsCity#0;class#MyStepdefs#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -536,17 +565,49 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test Results - TestRunner.html" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="491">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#userClicksOnTheLoginLink#0;class#MyStepdefs#0" />
+            <element signature="method#userFillsFirstnameFieldWith#0;class#MyStepdefs#0" />
+            <element signature="method#userFillsLastnameFieldWith#0;class#MyStepdefs#0" />
+            <element signature="method#userFillsPrimaryPhoneWith#0;class#MyStepdefs#0" />
+            <element signature="method#userSelectsCompanyType#0;class#MyStepdefs#0" />
+            <element signature="method#userFillsUsername#0;class#MyStepdefs#0" />
+            <element signature="method#userFillsAddress#0;class#MyStepdefs#0" />
+            <element signature="method#userFillsCity#0;class#MyStepdefs#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
         </state>
       </provider>
     </entry>
