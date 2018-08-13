@@ -152,17 +152,9 @@ public class MyStepdefs {
         loginPage.clickLogin();
         Thread.sleep(8000);
     }
-        @Then("^user see Welcome text$")
-        public void userSeeWelcomeText() throws Throwable {
-           Thread.sleep(3000);
-           homePage.getMessage();
-        }
 
-    @When("^type search Term \"([^\"]*)\"$")
-    public void typeSearchTerm(String enterSearch) throws Throwable {
-        Thread.sleep(3000);
-        homePage.setEnterSearch(enterSearch);
-    }
+
+
     @When("^hit search$")
     public void hitSearch() throws Throwable {
         Thread.sleep(3000);
@@ -205,9 +197,29 @@ public class MyStepdefs {
         registrationPage.setTerms();
     }
 
+    @Then("^user see My Account text$")
+    public void userSeeMyAccountText() throws Throwable {
+        homePage.getMessage();
+    }
+
     @When("^mark consent$")
     public void markConsent() throws Throwable {
         registrationPage.setConsent();
+    }
+    @When("^enter username \"([^\"]*)\"$")
+    public void enterUsername(String username) throws Throwable {
+        loginPage.enterUN(username);
+    }
+
+    @When("^enter password \"([^\"]*)\"$")
+    public void enterPassword(String password) throws Throwable {
+        loginPage.enterPW(password);
+    }
+
+
+    @When("^user type search term \"([^\"]*)\"$")
+    public void userTypeSearchTerm(String enterSearch) throws Throwable {
+        homePage.setEnterSearch(enterSearch);
     }
 
     @After
@@ -217,6 +229,7 @@ public class MyStepdefs {
         driver.quit();
 
 }
+
 
 
 }
