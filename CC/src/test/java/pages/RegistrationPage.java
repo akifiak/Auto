@@ -36,13 +36,13 @@ public class RegistrationPage {
     @FindBy(xpath = "//input[@id='billingAddress.city']")
     private WebElement billingCity;
 
-    @FindBy (xpath="//select[contains(@name,'billingAddress.stateCode')]//option[contains(@value,'IL')][contains(text(),'Illinois')]")
+    @FindBy (xpath="//select[@name='shippingAddress.stateCode']")
     private WebElement billingState;
 
     @FindBy(xpath="//input[@id='billingAddress.postalCode']")
     private WebElement billingPostal;
 
-    @FindBy(xpath="//a[@id='useBillingAddress']")
+    @FindBy(xpath="//a[@id='useBillingAddressRegistration']")
     private WebElement useBilling;
 
     @FindBy(xpath="//input[@value='Submit']")
@@ -50,6 +50,18 @@ public class RegistrationPage {
 
     @FindBy(xpath="//select[@id='language' and contains (text(),'English')]")
     private WebElement language;
+
+    @FindBy (xpath="//input[@id='NewPassword']")
+    private WebElement newPassword;
+
+    @FindBy (xpath = "//input[@id='ConfirmPassword']")
+    private WebElement confirmPassword;
+
+    @FindBy (xpath ="//input[@id='tocFlag']")
+    private WebElement terms;
+
+    @FindBy (xpath = "//input[@id='privacyAcceptFlag']")
+    private WebElement consent;
 
 
     public void setName(String name) {
@@ -89,10 +101,7 @@ public class RegistrationPage {
     {
         this.billingCity.sendKeys(billingCity);
     }
-    public void setBillingState()
-    {
-        billingState.click();
-    }
+
 
     public void setBillingPostal(String billingPostal)
     {
@@ -108,7 +117,23 @@ public class RegistrationPage {
     }
 
 
+    public void setNewPassword(String newPassword) {
 
+        this.newPassword.sendKeys(newPassword);
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+
+        this.confirmPassword.sendKeys(confirmPassword);
+    }
+
+    public void setTerms(){
+        terms.click();
+    }
+
+    public void setConsent(){
+        consent.click();
+    }
 }
 
 

@@ -15,16 +15,21 @@ Feature: Registration
     And user selects preferred language
     And user fills company name with "<company_name>"
     And user selects company type
+    And user selects job function
     And user fills username "<username>"
+    And user fills password "<password>"
+    And user fills password again "<password>"
     And user fills address "<address>"
+    And user selects country
     And user fills City "<city>"
     And user selects state
     And user fills postal code "<postalCode>"
-    And user selects country
     And user click on use billing address for shipping
+    And mark terms
+    And mark consent
     And click submit
     Then form submitted
 
     Examples:
-      | name | ln   | primary_phone | company_name | username          | address          | city    | postalCode |
-      | Test | Test | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |
+      | name | ln   | primary_phone | company_name | username          | address          | city    | postalCode |password|
+      | Test | Test | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |Welcome1!|

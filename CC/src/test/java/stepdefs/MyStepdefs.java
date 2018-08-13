@@ -83,8 +83,8 @@ public class MyStepdefs {
 
     @When("^user selects company type$")
     public void userSelectsCompanyType() throws Throwable {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        registrationPage.setCompanyType();
+        Select companyType = new Select(driver.findElement(By.id("companyType")));
+        companyType.selectByVisibleText("Manufacturing");
     }
 
     @When("^user fills username \"([^\"]*)\"$")
@@ -104,10 +104,7 @@ public class MyStepdefs {
         registrationPage.setBillingCity(billingCity);
     }
 
-    @When("^user selects state$")
-    public void userSelectsState() throws Throwable {
-        registrationPage.setBillingState();
-    }
+
 
     @When("^user fills postal code \"([^\"]*)\"$")
     public void userFillsPostalCode(String billingPostal) throws Throwable {
@@ -117,7 +114,8 @@ public class MyStepdefs {
 
     @When("^user selects country$")
     public void userSelectsCountry() throws Throwable {
-
+        Select country = new Select(driver.findElement(By.name("billingAddress.countryCode")));
+        country.selectByVisibleText("United States");
     }
 
     @When("^user click on use billing address for shipping$")
@@ -160,7 +158,7 @@ public class MyStepdefs {
            homePage.getMessage();
         }
 
-    @When("^type searchTerm \"([^\"]*)\"$")
+    @When("^type search Term \"([^\"]*)\"$")
     public void typeSearchTerm(String enterSearch) throws Throwable {
         Thread.sleep(3000);
         homePage.setEnterSearch(enterSearch);
@@ -181,7 +179,36 @@ public class MyStepdefs {
     languageEn.selectByVisibleText("English");
     }
 
+    @When("^user selects job function$")
+    public void userSelectsJobFunction() throws Throwable {
+    Select jobFunction = new Select(driver.findElement(By.id("jobFunction")));
+    jobFunction.selectByVisibleText("Manager");
+    }
 
+    @When("^user fills password \"([^\"]*)\"$")
+    public void userFillsPassword(String password) throws Throwable {
+        registrationPage.setNewPassword(password);
+    }
+
+    @When("^user fills password again \"([^\"]*)\"$")
+    public void userFillsPasswordAgain(String confirmPW) throws Throwable {
+        registrationPage.setConfirmPassword(confirmPW);
+    }
+    @When("^user selects state$")
+    public void userSelectsState() throws Throwable {
+                Select billingState = new Select (driver.findElement(By.xpath("//select[@name='billingAddress.stateCode']")));
+        billingState.selectByVisibleText("Illinois");
+    }
+
+    @When("^mark terms$")
+    public void markTerms() throws Throwable {
+        registrationPage.setTerms();
+    }
+
+    @When("^mark consent$")
+    public void markConsent() throws Throwable {
+        registrationPage.setConsent();
+    }
 
     @After
     public void close() throws Throwable {
@@ -190,7 +217,6 @@ public class MyStepdefs {
         driver.quit();
 
 }
-
 
 
 }
