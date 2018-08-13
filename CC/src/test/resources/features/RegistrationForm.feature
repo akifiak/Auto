@@ -12,6 +12,7 @@ Feature: Registration
     And user fills firstname field with "<name>"
     And user fills lastname field with "<ln>"
     And user fills primary phone with "<primary_phone>"
+    And user selects preferred language
     And user fills company name with "<company_name>"
     And user selects company type
     And user fills username "<username>"
@@ -27,6 +28,3 @@ Feature: Registration
     Examples:
       | name | ln   | primary_phone | company_name | username          | address          | city    | postalCode |
       | Test | Test | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |
-      | Two  | Sec  | 6666666666    | New          | test@ing.com      | Whereever        | Some    | 60606      |
-      | Two  | Sec  | 7777777777    | New          | test@ing.com      | Whereever        | Some    | 60606      |
-      | Two  | Sec  | 8888888888    | New          | test@ing.com      | Whereever        | Some    | 60606      |

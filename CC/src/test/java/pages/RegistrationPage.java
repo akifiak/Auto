@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPage {
     public RegistrationPage(WebDriver driver) {
@@ -46,6 +47,10 @@ public class RegistrationPage {
 
     @FindBy(xpath="//input[@value='Submit']")
     private WebElement submit;
+
+    @FindBy(xpath="//select[@id='language' and contains (text(),'English')]")
+    private WebElement language;
+
 
     public void setName(String name) {
 
@@ -101,6 +106,9 @@ public class RegistrationPage {
     public void Submitting(){
         submit.click();
     }
+
+
+
 }
 
 

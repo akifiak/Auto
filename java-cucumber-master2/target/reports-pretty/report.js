@@ -140,7 +140,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2777165684,
+  "duration": 3959849677,
   "status": "passed"
 });
 formatter.scenario({
@@ -261,7 +261,7 @@ formatter.match({
   "location": "MyStepdefs.someTestInfo()"
 });
 formatter.result({
-  "duration": 1474839527,
+  "duration": 1790126929,
   "status": "passed"
 });
 formatter.match({
@@ -274,7 +274,7 @@ formatter.match({
   "location": "MyStepdefs.userFillsUsernameWithValue(String)"
 });
 formatter.result({
-  "duration": 165911192,
+  "duration": 341525499,
   "status": "passed"
 });
 formatter.match({
@@ -287,130 +287,130 @@ formatter.match({
   "location": "MyStepdefs.userFillsPasswordWithValue(String)"
 });
 formatter.result({
-  "duration": 87160686,
+  "duration": 160778259,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickSubmit()"
 });
 formatter.result({
-  "duration": 911473497,
+  "duration": 1918306385,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userSelectCategory()"
 });
 formatter.result({
-  "duration": 1141839447,
+  "duration": 1531034924,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickBlouse()"
 });
 formatter.result({
-  "duration": 728213950,
+  "duration": 1134169277,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userAddToCart()"
 });
 formatter.result({
-  "duration": 71743480,
+  "duration": 121958362,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickProceed()"
 });
 formatter.result({
-  "duration": 2635101753,
+  "duration": 3136275945,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userVerifyAddress()"
 });
 formatter.result({
-  "duration": 40242890,
+  "duration": 113382843,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickCheckout()"
 });
 formatter.result({
-  "duration": 567567240,
+  "duration": 916070262,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickContinueOne()"
 });
 formatter.result({
-  "duration": 924183794,
+  "duration": 955011372,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickContinueTwo()"
 });
 formatter.result({
-  "duration": 59007971,
+  "duration": 124159576,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickContinueThree()"
 });
 formatter.result({
-  "duration": 548187855,
+  "duration": 896437768,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickContinueFour()"
 });
 formatter.result({
-  "duration": 540688223,
+  "duration": 723634290,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userClickContinueFive()"
 });
 formatter.result({
-  "duration": 1088081897,
+  "duration": 1371420786,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userVerifyPrice()"
 });
 formatter.result({
-  "duration": 32065924,
+  "duration": 74135309,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userVerifyMessage()"
 });
 formatter.result({
-  "duration": 29580592,
+  "duration": 78144522,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userGoBack()"
 });
 formatter.result({
-  "duration": 809440092,
+  "duration": 1307150210,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userVerifyOrderpresence()"
 });
 formatter.result({
-  "duration": 72243,
+  "duration": 74182,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userLogout()"
 });
 formatter.result({
-  "duration": 905532167,
+  "duration": 1172085417,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2847136075,
+  "duration": 866937632,
   "status": "passed"
 });
 });

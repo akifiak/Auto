@@ -7,8 +7,10 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.RegistrationPage;
@@ -173,6 +175,11 @@ public class MyStepdefs {
         Thread.sleep(3000);
         homePage.setResult();
     }
+    @When("^user selects preferred language$")
+    public void userSelectsPreferredLanguage() throws Throwable {
+        Select languageEn = new Select(driver.findElement(By.id("language")));
+    languageEn.selectByVisibleText("English");
+    }
 
 
 
@@ -183,15 +190,6 @@ public class MyStepdefs {
         driver.quit();
 
 }
-
-
-
-
-
-
-
-
-
 
 
 

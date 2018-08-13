@@ -30,6 +30,7 @@ public class HomePage {
     @FindBy (xpath="//a[contains(text(),'CAN/CSA-C22.2 NO. 0-10 (R2015)')]")
     private WebElement result;
 
+
     public void clickLogin() { Login.click(); }
 
     public void getMessage(){
@@ -51,6 +52,7 @@ public class HomePage {
         assertion.assertEquals(result.getText(), "CAN/CSA-C22.2 NO. 0-10 (R2015)");
         assertion.assertAll();
     }
+
 }
 
 
