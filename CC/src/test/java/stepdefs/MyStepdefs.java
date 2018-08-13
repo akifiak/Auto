@@ -3,6 +3,7 @@ package stepdefs;
 import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -13,6 +14,7 @@ import pages.LoginPage;
 import pages.RegistrationPage;
 import java.util.concurrent.TimeUnit;
 
+import static org.testng.Assert.assertEquals;
 
 
 public class MyStepdefs {
@@ -37,8 +39,8 @@ public class MyStepdefs {
 
     @Given("^user navigates o the homepage$")
     public void userNavigatesOTheHomepage() {
-       driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
-        //driver.get("https://csauatfull-uat.cs14.force.com/shop");
+      // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
+        driver.get("https://csauatfull-uat.cs14.force.com/shop");
     }
 
     @When("^user clicks on the login link$")
@@ -132,12 +134,65 @@ public class MyStepdefs {
     public void formSubmitted() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
+
     }
+    @When("^Fill username \"([^\"]*)\"$")
+    public void fillUsername(String username) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        loginPage.enterUN(username);
+    }
+    @When("^Fill password \"([^\"]*)\"$")
+    public void fillPassword(String password) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        loginPage.enterPW(password);
+    }
+    @When("^click submit button$")
+    public void clickSubmitButton() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        loginPage.clickLogin();
+        Thread.sleep(8000);
+    }
+        @Then("^user see Welcome text$")
+        public void userSeeWelcomeText() throws Throwable {
+           Thread.sleep(3000);
+           homePage.getMessage();
+        }
+
+    @When("^type searchTerm \"([^\"]*)\"$")
+    public void typeSearchTerm(String enterSearch) throws Throwable {
+        Thread.sleep(3000);
+        homePage.setEnterSearch(enterSearch);
+    }
+    @When("^hit search$")
+    public void hitSearch() throws Throwable {
+        Thread.sleep(3000);
+        homePage.setHitSearch();
+    }
+    @Then("^see results$")
+    public void seeResults() throws Throwable {
+        Thread.sleep(3000);
+        homePage.setResult();
+    }
+
+
+
     @After
     public void close() throws Throwable {
+        Thread.sleep(3000);
         driver.close();
         driver.quit();
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 }
