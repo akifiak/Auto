@@ -29,9 +29,9 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name | ln   | primary_phone | company_name | username            | address         | city    | postalCode | password  |
-      | Test | Test | 5555555555    | DDDDS0        | testUserd30@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS 1       | testUserd31@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS  2      | testUserd32@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS   3     | testUserd33@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS     4   | testUserd34@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | name | ln   | primary_phone | company_name  | username               | address         | city    | postalCode | password  |
+      | Test | Test | 5555555555    | DDDDS0 1      | testUserd1130@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS 1 1     | testUserd131@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS  2 1    | testUserd312@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS   3 1   | testUserd133@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS     4 1 | testUserd134@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
