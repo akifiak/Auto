@@ -128,12 +128,12 @@ public class MyStepdefs {
     public void clickSubmit() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.Submitting();
+        Thread.sleep(8000);
     }
 
     @Then("^form submitted$")
     public void formSubmitted() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        homePage.getMessage();
 
     }
     @When("^Fill username \"([^\"]*)\"$")
@@ -150,7 +150,7 @@ public class MyStepdefs {
     public void clickSubmitButton() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.clickLogin();
-        Thread.sleep(8000);
+
     }
 
 

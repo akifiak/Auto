@@ -1,5 +1,3 @@
-
-
 Feature: Registration
   As a user I want to fill my form
   also I submit it
@@ -31,5 +29,9 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name | ln   | primary_phone | company_name | username          | address          | city    | postalCode |password|
-      | Test | Test | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |Welcome1!|
+      | name | ln   | primary_phone | company_name | username            | address         | city    | postalCode | password  |
+      | Test | Test | 5555555555    | DDDDS0        | testUserd30@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS 1       | testUserd31@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS  2      | testUserd32@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS   3     | testUserd33@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS     4   | testUserd34@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |

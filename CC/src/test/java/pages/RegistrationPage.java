@@ -45,7 +45,7 @@ public class RegistrationPage {
     @FindBy(xpath="//a[@id='useBillingAddressRegistration']")
     private WebElement useBilling;
 
-    @FindBy(xpath="//input[@value='Submit']")
+    @FindBy(xpath="//input[@id='btn-registration-submit']")
     private WebElement submit;
 
     @FindBy(xpath="//select[@id='language' and contains (text(),'English')]")
@@ -132,8 +132,11 @@ public class RegistrationPage {
     }
 
     public void setConsent(){
-        consent.click();
+                consent.click();
+
+
     }
+
 }
 
 
