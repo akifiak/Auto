@@ -25,7 +25,6 @@ Feature: Registration
     And user click on use billing address for shipping
     And mark terms
     And mark consent
-    And click submit
     Then form submitted
 
     Examples:

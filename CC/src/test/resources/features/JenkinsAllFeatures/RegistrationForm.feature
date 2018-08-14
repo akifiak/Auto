@@ -1,5 +1,3 @@
-
-
 Feature: Registration
   As a user I want to fill my form
   also I submit it
@@ -27,9 +25,12 @@ Feature: Registration
     And user click on use billing address for shipping
     And mark terms
     And mark consent
-    And click submit
     Then form submitted
 
     Examples:
-      | name | ln   | primary_phone | company_name | username          | address          | city    | postalCode |password|
-      | Test | Test | 5555555555    | Test         | testUser@mail.com | 4250 N Marine Dr | Chicago | 60613      |Welcome1!|
+      | name | ln   | primary_phone | company_name  | username               | address         | city    | postalCode | password  |
+      | Test | Test | 5555555555    | DDDDS0 1      | testUserd1130@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS 1 1     | testUserd131@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS  2 1    | testUserd312@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS   3 1   | testUserd133@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | Test | Test | 5555555555    | DDDDS     4 1 | testUserd134@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
