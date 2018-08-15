@@ -29,9 +29,5 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name | ln   | primary_phone | company_name   | username                | address         | city    | postalCode | password  |
-      | Test | Test | 5555555555    | DDDDS0 1 3     | testUser3d1130@mail.com | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS 1 1  2   | testUser3d131@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS  2 1 2   | testU3serd312@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS   3 1 2  | testUs3erd133@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
-      | Test | Test | 5555555555    | DDDDS   2  4 1 | tes3tUserd134@mail.com  | 333 W Wacker Dr | Chicago | 60606      | Welcome1! |
+      | name | ln   | primary_phone | company_name       | username                | address         | city    | postalCode | password  |
+      | Test | Test | 5555555555    | CC_IvanVasilievich | usertestcsa+2@gmail.com | 333 W Wacker Dr | Chicago | 60606      | Testing1! |

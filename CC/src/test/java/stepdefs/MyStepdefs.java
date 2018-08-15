@@ -11,12 +11,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import pages.HomePage;
-import pages.LoginPage;
-import pages.RegistrationPage;
+import pages.*;
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.Assert.assertEquals;
 
 
 public class MyStepdefs {
@@ -24,24 +21,27 @@ public class MyStepdefs {
     WebDriver driver;
     LoginPage loginPage;
     RegistrationPage registrationPage;
+    SearchPage searchPage;
+    PDP pdp;
 
 
     @Before
     public void init() {
-       System.setProperty("webdriver.chrome.driver", "c://chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "c://chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
         loginPage = new LoginPage(driver);
         registrationPage = new RegistrationPage(driver);
-
+        searchPage = new SearchPage(driver);
+        pdp = new PDP(driver);
     }
 
 
     @Given("^user navigates o the homepage$")
     public void userNavigatesOTheHomepage() {
-      // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
+        // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
         driver.get("https://csauatfull-uat.cs14.force.com/shop");
     }
 
@@ -60,7 +60,7 @@ public class MyStepdefs {
     @When("^user fills firstname field with \"([^\"]*)\"$")
     public void userFillsFirstnameFieldWith(String name) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    registrationPage.setName(name);
+        registrationPage.setName(name);
     }
 
     @When("^user fills lastname field with \"([^\"]*)\"$")
@@ -84,7 +84,7 @@ public class MyStepdefs {
     @When("^user selects company type$")
     public void userSelectsCompanyType() throws Throwable {
         Select companyType = new Select(driver.findElement(By.id("companyType")));
-        companyType.selectByVisibleText("Manufacturing");
+        companyType.selectByVisibleText("Educational services");
     }
 
     @When("^user fills username \"([^\"]*)\"$")
@@ -98,12 +98,12 @@ public class MyStepdefs {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setBillingAddress(billingAddress);
     }
+
     @When("^user fills City \"([^\"]*)\"$")
     public void userFillsCity(String billingCity) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setBillingCity(billingCity);
     }
-
 
 
     @When("^user fills postal code \"([^\"]*)\"$")
@@ -136,16 +136,19 @@ public class MyStepdefs {
         homePage.getMessage();
 
     }
+
     @When("^Fill username \"([^\"]*)\"$")
     public void fillUsername(String username) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterUN(username);
     }
+
     @When("^Fill password \"([^\"]*)\"$")
     public void fillPassword(String password) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterPW(password);
     }
+
     @When("^click submit button$")
     public void clickSubmitButton() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -154,73 +157,113 @@ public class MyStepdefs {
     }
 
 
-
     @When("^hit search$")
     public void hitSearch() throws Throwable {
         Thread.sleep(3000);
-        homePage.setHitSearch();
+        searchPage.setHitSearch();
     }
+
     @Then("^see results$")
     public void seeResults() throws Throwable {
         Thread.sleep(3000);
-        homePage.setResult();
+        searchPage.setResult();
     }
+
     @When("^user selects preferred language$")
     public void userSelectsPreferredLanguage() throws Throwable {
         Select languageEn = new Select(driver.findElement(By.id("language")));
-    languageEn.selectByVisibleText("English");
+        languageEn.selectByVisibleText("English");
     }
 
     @When("^user selects job function$")
     public void userSelectsJobFunction() throws Throwable {
-    Select jobFunction = new Select(driver.findElement(By.id("jobFunction")));
-    jobFunction.selectByVisibleText("Manager");
+        Select jobFunction = new Select(driver.findElement(By.id("jobFunction")));
+        jobFunction.selectByVisibleText("Manager");
     }
 
     @When("^user fills password \"([^\"]*)\"$")
     public void userFillsPassword(String password) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setNewPassword(password);
     }
 
     @When("^user fills password again \"([^\"]*)\"$")
     public void userFillsPasswordAgain(String confirmPW) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setConfirmPassword(confirmPW);
     }
+
     @When("^user selects state$")
     public void userSelectsState() throws Throwable {
-                Select billingState = new Select (driver.findElement(By.xpath("//select[@name='billingAddress.stateCode']")));
+        Select billingState = new Select(driver.findElement(By.xpath("//select[@name='billingAddress.stateCode']")));
         billingState.selectByVisibleText("Illinois");
     }
 
     @When("^mark terms$")
     public void markTerms() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setTerms();
     }
 
     @Then("^user see My Account text$")
     public void userSeeMyAccountText() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         homePage.getMessage();
     }
 
     @When("^mark consent$")
     public void markConsent() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setConsent();
     }
+
     @When("^enter username \"([^\"]*)\"$")
     public void enterUsername(String username) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterUN(username);
     }
 
     @When("^enter password \"([^\"]*)\"$")
     public void enterPassword(String password) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterPW(password);
     }
 
 
     @When("^user type search term \"([^\"]*)\"$")
     public void userTypeSearchTerm(String enterSearch) throws Throwable {
-        homePage.setEnterSearch(enterSearch);
+        searchPage.setEnterSearch(enterSearch);
     }
+
+    @When("^click link$")
+    public void clickLink() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        searchPage.clicking();
+    }
+
+    @When("^navigates to PDP$")
+    public void navigatesToPDP() throws Throwable {
+        searchPage.clickName();
+    }
+
+
+
+    @Then("^add to cart button available$")
+    public void addToCartButtonAvailable() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        pdp.pdpVer();
+    }
+    @When("^click on cart$")
+    public void clickOnCart() throws Throwable {
+        Thread.sleep(6000);
+        pdp.navigateCart();
+    }
+    @When("^add to cart button clicked$")
+    public void addToCartButtonClicked() throws Throwable {
+        Thread.sleep(6000);
+        pdp.setAddToCart();
+    }
+
 
     @After
     public void close() throws Throwable {
@@ -228,7 +271,7 @@ public class MyStepdefs {
         driver.close();
         driver.quit();
 
-}
+    }
 
 
 
