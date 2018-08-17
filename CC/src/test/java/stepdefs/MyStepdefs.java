@@ -235,11 +235,7 @@ public class MyStepdefs {
         searchPage.setEnterSearch(subscription2);
         Thread.sleep(2000);
     }
-    @When("^user type search term \"([^\"]*)\"$")
-    public void userTypeSearchTerm(String Subscription1) throws Throwable {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        searchPage.setEnterSearch(Subscription1);
-    }
+
 
     @When("^click link$")
     public void clickLink() throws Throwable {

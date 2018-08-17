@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="collections feature testing and search and registration">
+    <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="Updates for the search and adding 10 subscription flow, so that getting rid of example with searchterm.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,7 +41,7 @@
           <entry key="feature" value="55" />
           <entry key="html" value="5" />
           <entry key="iml" value="2" />
-          <entry key="java" value="112" />
+          <entry key="java" value="113" />
           <entry key="json" value="1" />
           <entry key="xml" value="6" />
         </counts>
@@ -55,24 +52,24 @@
           <entry key="Cucumber" value="55" />
           <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="112" />
+          <entry key="JAVA" value="113" />
           <entry key="JSON" value="1" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="1790" />
-          <entry key="java" value="5072" />
-          <entry key="txt" value="387" />
+          <entry key="feature" value="1877" />
+          <entry key="java" value="5073" />
+          <entry key="txt" value="501" />
           <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="1790" />
-          <entry key="JAVA" value="5072" />
-          <entry key="PLAIN_TEXT" value="387" />
+          <entry key="Cucumber" value="1877" />
+          <entry key="JAVA" value="5073" />
+          <entry key="PLAIN_TEXT" value="501" />
           <entry key="XML" value="49" />
         </counts>
       </usages-collector>
@@ -83,26 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -111,36 +90,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+              <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,6 +128,7 @@
       <find>searchTerm</find>
       <find>term</find>
       <find>click</find>
+      <find>CAN/CSA-Z810-98 (R2003)</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -206,10 +159,10 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PDP.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" />
       </list>
     </option>
@@ -306,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534470183938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534473715012" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-cucumber-master2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16699219" />
@@ -678,22 +631,17 @@
       <option name="project" value="LOCAL" />
       <updated>1534374810979</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updates for the search and adding 10 subscription flow, so that getting rid of example with searchterm.">
+      <created>1534470237089</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1534470237089</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 15h 32m 56s.xml">
-      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 15h 33m 55s.xml">
-      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 20h 10m 37s.xml">
-      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 20h 12m 38s.xml">
-      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 20h 23m 45s.xml">
       <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -712,12 +660,24 @@
     <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 20h 39m 23s.xml">
       <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 20h 46m 52s.xml">
+      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 20h 49m 16s.xml">
+      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 21h 22m 52s.xml">
+      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SubscriptionProration - 2018.08.16 at 21h 41m 49s.xml">
+      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44792295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44792295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -726,7 +686,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32799014" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40197286" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40197286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -761,7 +721,8 @@
     <MESSAGE value="Completed Registration form and search." />
     <MESSAGE value="Completed Registration form and search with updated data." />
     <MESSAGE value="collections feature testing and search and registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="collections feature testing and search and registration" />
+    <MESSAGE value="Updates for the search and adding 10 subscription flow, so that getting rid of example with searchterm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates for the search and adding 10 subscription flow, so that getting rid of example with searchterm." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps.java" />
@@ -862,40 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -909,10 +836,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state relative-caret-position="323">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
         </state>
       </provider>
     </entry>
