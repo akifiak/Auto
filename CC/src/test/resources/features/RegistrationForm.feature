@@ -30,4 +30,4 @@ Feature: Registration
 
     Examples:
       | name | ln   | primary_phone | company_name       | username                | address         | city    | postalCode | password  |
-      | Test | Test | 5555555555    | CC_IvanVasilievich | usertestcsa+2@gmail.com | 333 W Wacker Dr | Chicago | 60606      | Testing1! |
+      | Test | Test | 5555555555    | Smoke08.17.18 | usertestcsa+777@gmail.com | 333 W Wacker Dr | Chicago | 60606      | Testing1! |

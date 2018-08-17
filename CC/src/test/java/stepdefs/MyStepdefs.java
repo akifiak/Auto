@@ -133,6 +133,7 @@ public class MyStepdefs {
 
     @Then("^form submitted$")
     public void formSubmitted() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         homePage.getMessage();
 
     }
@@ -160,12 +161,14 @@ public class MyStepdefs {
     @When("^hit search$")
     public void hitSearch() throws Throwable {
         Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         searchPage.setHitSearch();
     }
 
     @Then("^see results$")
     public void seeResults() throws Throwable {
         Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         searchPage.setResult();
     }
 
@@ -231,9 +234,10 @@ public class MyStepdefs {
 
     @When("^user type \"([^\"]*)\"$")
     public void userType(String subscription2) throws Throwable {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Thread.sleep(6000);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         searchPage.setEnterSearch(subscription2);
-        Thread.sleep(2000);
+
     }
 
 
@@ -245,6 +249,7 @@ public class MyStepdefs {
 
     @When("^navigates to PDP$")
     public void navigatesToPDP() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         searchPage.clickName();
     }
 
@@ -258,12 +263,14 @@ public class MyStepdefs {
     @When("^click on cart$")
     public void clickOnCart() throws Throwable {
         Thread.sleep(6000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         pdp.navigateCart();
         Thread.sleep(4000);
     }
     @When("^add to cart button clicked$")
     public void addToCartButtonClicked() throws Throwable {
         Thread.sleep(6000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         pdp.setAddToCart();
     }
 

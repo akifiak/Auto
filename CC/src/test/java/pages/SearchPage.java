@@ -29,11 +29,13 @@ public class SearchPage {
     @FindBy(xpath = "//input[@id='searchTextCSA']")
     private WebElement enterSearch;
 
+    @FindBy(xpath = "//div[@class='col-md-12 column column-middle cp-ltr-0']//button[@id='doSearchCSA']")
+    private WebElement clickSearch;
     public void clicking(){
         navigateToPDP.click();
     }
 
-    public void setHitSearch(){enterSearch.sendKeys(Keys.RETURN);}
+    public void setHitSearch(){clickSearch.click();}
 
     public void setResult() {
         SoftAssert assertion = new SoftAssert();
