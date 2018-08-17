@@ -5,7 +5,7 @@ Feature: Search Products
 
   Scenario Outline: Login and search
 
-    Given user navigates o the homepage
+    Given user navigates to the homepage
     When user clicks on the login link
     And enter username "<username>"
     And enter password "<password>"

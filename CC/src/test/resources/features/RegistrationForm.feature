@@ -4,13 +4,13 @@ Feature: Registration
 
   Scenario Outline: Form filling and submit
 
-    Given user navigates o the homepage
+    Given user navigates to the homepage
     When user clicks on the login link
     And user clicks on the create account
     And user fills firstname field with "<name>"
     And user fills lastname field with "<ln>"
     And user fills primary phone with "<primary_phone>"
-    And user selects preferred language
+    And user selects preferred language as English
     And user fills company name with "<company_name>"
     And user selects company type
     And user selects job function

@@ -1,9 +1,9 @@
 package stepdefs;
 
+
 import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -39,7 +39,7 @@ public class MyStepdefs {
     }
 
 
-    @Given("^user navigates o the homepage$")
+    @Given("^user navigates to the homepage$")
     public void userNavigatesOTheHomepage() {
         // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
         driver.get("https://csauatfull-uat.cs14.force.com/shop");
@@ -169,7 +169,7 @@ public class MyStepdefs {
         searchPage.setResult();
     }
 
-    @When("^user selects preferred language$")
+    @When("^user selects preferred language as English$")
     public void userSelectsPreferredLanguage() throws Throwable {
         Select languageEn = new Select(driver.findElement(By.id("language")));
         languageEn.selectByVisibleText("English");
@@ -229,10 +229,16 @@ public class MyStepdefs {
         loginPage.enterPW(password);
     }
 
-
+    @When("^user type \"([^\"]*)\"$")
+    public void userType(String subscription2) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        searchPage.setEnterSearch(subscription2);
+        Thread.sleep(2000);
+    }
     @When("^user type search term \"([^\"]*)\"$")
-    public void userTypeSearchTerm(String enterSearch) throws Throwable {
-        searchPage.setEnterSearch(enterSearch);
+    public void userTypeSearchTerm(String Subscription1) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        searchPage.setEnterSearch(Subscription1);
     }
 
     @When("^click link$")
@@ -257,6 +263,7 @@ public class MyStepdefs {
     public void clickOnCart() throws Throwable {
         Thread.sleep(6000);
         pdp.navigateCart();
+        Thread.sleep(4000);
     }
     @When("^add to cart button clicked$")
     public void addToCartButtonClicked() throws Throwable {

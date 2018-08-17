@@ -5,21 +5,25 @@ package pages;
         import org.openqa.selenium.WebElement;
         import org.openqa.selenium.support.FindBy;
         import org.openqa.selenium.support.PageFactory;
-        import org.openqa.selenium.support.ui.Select;
         import org.testng.asserts.SoftAssert;
+
 
 public class SearchPage {
     public SearchPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
 
     }
-    @FindBy(xpath = "//a[contains(text(),'CAN/CSA-C22.2 NO. 0-10 (R2015)')]")
+    @FindBy(xpath = "//*[@class='plp productName cc_product_name']")
     private WebElement navigateToPDP;
+
+
+
 
     @FindBy(xpath="//button[@id='doSearchCSA']")
     private WebElement hitSearch;
 
-    @FindBy (xpath="//a[contains(text(),'CAN/CSA-C22.2 NO. 0-10 (R2015)')]")
+
+    @FindBy (xpath="//*[@class='plp productName cc_product_name']")
     private WebElement result;
 
     @FindBy(xpath = "//input[@id='searchTextCSA']")
@@ -33,12 +37,12 @@ public class SearchPage {
 
     public void setResult() {
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(result.getText(), "CAN/CSA-C22.2 NO. 0-10 (R2015)");
+        assertion.assertEquals(result.getText(), true);
         assertion.assertAll();
     }
 
     public void clickName(){
-        result.click();
+         result.click();
     }
 
     public void setEnterSearch(String enterSearch)
