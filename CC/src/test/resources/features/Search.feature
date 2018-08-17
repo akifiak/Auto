@@ -11,7 +11,7 @@ Feature: Search Products
     And enter password "<password>"
     And click submit button
     Then user see My Account text
-    When user type search term "<searchTerm>"
+    When user type "test"
     And hit search
     Then see results
     And navigates to PDP
@@ -19,6 +19,6 @@ Feature: Search Products
 
 
     Examples:
-      | username                    | password  | searchTerm |
-      | avi4.20.18.3@mailinator.com | Welcome1! | Standart   |
+      | username                    | password  |
+      | avi4.20.18.3@mailinator.com | Welcome1! |
 
