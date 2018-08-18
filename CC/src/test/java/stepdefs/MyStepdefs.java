@@ -1,7 +1,6 @@
 package stepdefs;
 
 
-import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -244,6 +243,7 @@ public class MyStepdefs {
     @When("^click link$")
     public void clickLink() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Thread.sleep(3000);
         searchPage.clicking();
     }
 
