@@ -38,8 +38,9 @@ public class SearchPage {
     public void setHitSearch(){clickSearch.click();}
 
     public void setResult() {
+
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(result.getText(), true);
+        assertion.assertEquals(result.getText(), "CAN/CSA-C22.2 NO. 1010.2.041-96(R04)");
         assertion.assertAll();
     }
 

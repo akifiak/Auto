@@ -20,6 +20,10 @@ public class PDP {
     @FindBy (xpath = "//button[text()[normalize-space()= 'ADD TO CART']]")
     private WebElement add;
 
+    @FindBy(xpath ="//button[text()[normalize-space()= 'CHECKOUT']]")
+    private WebElement checkout;
+
+
     public void pdpVer(){
         SoftAssert assertion=new SoftAssert();
         assertion.assertEquals(addToCart.getText(), "ADD TO CART");
@@ -32,4 +36,5 @@ public class PDP {
     public void setAddToCart(){
         addToCart.click();
     }
+    public void clickCheckout(){checkout.click();}
     }

@@ -1,8 +1,10 @@
 package stepdefs;
 
 
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -83,7 +85,7 @@ public class MyStepdefs {
     @When("^user selects company type$")
     public void userSelectsCompanyType() throws Throwable {
         Select companyType = new Select(driver.findElement(By.id("companyType")));
-        companyType.selectByVisibleText("Educational services");
+        companyType.selectByVisibleText("Real Estate");
     }
 
     @When("^user fills username \"([^\"]*)\"$")
@@ -114,7 +116,7 @@ public class MyStepdefs {
     @When("^user selects country$")
     public void userSelectsCountry() throws Throwable {
         Select country = new Select(driver.findElement(By.name("billingAddress.countryCode")));
-        country.selectByVisibleText("United States");
+        country.selectByVisibleText("Canada");
     }
 
     @When("^user click on use billing address for shipping$")
@@ -132,6 +134,7 @@ public class MyStepdefs {
 
     @Then("^form submitted$")
     public void formSubmitted() throws Throwable {
+        Thread.sleep(4000);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         homePage.getMessage();
 
@@ -164,7 +167,7 @@ public class MyStepdefs {
         searchPage.setHitSearch();
     }
 
-    @Then("^see results$")
+    @Then("^see desired product in results$")
     public void seeResults() throws Throwable {
         Thread.sleep(3000);
         driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
@@ -198,7 +201,7 @@ public class MyStepdefs {
     @When("^user selects state$")
     public void userSelectsState() throws Throwable {
         Select billingState = new Select(driver.findElement(By.xpath("//select[@name='billingAddress.stateCode']")));
-        billingState.selectByVisibleText("Illinois");
+        billingState.selectByVisibleText("Quebec");
     }
 
     @When("^mark terms$")
@@ -229,12 +232,13 @@ public class MyStepdefs {
     public void enterPassword(String password) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterPW(password);
+        Thread.sleep(4000);
     }
 
     @When("^user type \"([^\"]*)\"$")
     public void userType(String subscription2) throws Throwable {
         Thread.sleep(6000);
-        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         searchPage.setEnterSearch(subscription2);
 
     }
@@ -263,9 +267,9 @@ public class MyStepdefs {
     @When("^click on cart$")
     public void clickOnCart() throws Throwable {
         Thread.sleep(6000);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         pdp.navigateCart();
-        Thread.sleep(4000);
+        Thread.sleep(5000);
     }
     @When("^add to cart button clicked$")
     public void addToCartButtonClicked() throws Throwable {
@@ -274,6 +278,11 @@ public class MyStepdefs {
         pdp.setAddToCart();
     }
 
+    @When("^click on checkout$")
+    public void clickOnCheckout() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        pdp.clickCheckout();
+    }
 
     @After
     public void close() throws Throwable {

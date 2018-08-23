@@ -14,61 +14,54 @@ Feature:
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "CAN/CSA-Z234.4-89 (R2007)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "CAN/CSA-ISO/IEC TR 13335-3-01"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "CAN/CSA-ISO/IEC ISP 10613-19-01"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "CAN/CSA-Z810-98 (R2003)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "PLUS 1154 (1st ed. pub. 2001)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "Z343-98 (R2002)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "CAN/CSA-C22.2 NO. 1010.2.041-96(R04)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "CAN/CSA-ISO/IEC 12061-7-96 (R2000)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    And click on cart
     When user type "C/C-ISO/IEC ISP 10612-9-99 (R2008)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
     And click on cart
+    And click on checkout
+
 
 
 
@@ -78,6 +71,6 @@ Feature:
 
     Examples:
       | username                  | password  |
-     # | usertestcsa+2@gmail.com | Testing1! |
+     #| usertestcsa+2@gmail.com | Testing1! |
       | usertestcsa+777@gmail.com | Testing1! |
 
