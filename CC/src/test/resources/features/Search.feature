@@ -11,7 +11,7 @@ Feature: Search Products
     And enter password "<password>"
     And click submit button
     Then user see My Account text
-    When user type "CAN/CSA-C22.2 NO. 1010.2.041-96(R04)"
+    When user type "C22.1HB-18"
     And hit search
     Then see desired product in results
     And navigates to PDP
@@ -22,6 +22,6 @@ Feature: Search Products
     Examples:
       | username                    | password  |
       | avi4.20.18.3@mailinator.com | Welcome1! |
-      | avi4.20.18.3@mailinator.com | Welcome1! |
+
 
 

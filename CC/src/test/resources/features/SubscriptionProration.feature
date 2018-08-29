@@ -70,7 +70,7 @@ Feature:
 
 
     Examples:
-      | username                  | password  |
-     #| usertestcsa+2@gmail.com | Testing1! |
-      | usertestcsa+777@gmail.com | Testing1! |
+      | username                          | password  |
+      #| usertestcsa+Testingakka@gmail.com | Testing1! |
+      | usertestcsa+SMKtestUser@gmail.com | Testing1! |
 

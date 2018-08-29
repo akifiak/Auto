@@ -20,8 +20,10 @@ public class PDP {
     @FindBy (xpath = "//button[text()[normalize-space()= 'ADD TO CART']]")
     private WebElement add;
 
-    @FindBy(xpath ="//button[text()[normalize-space()= 'CHECKOUT']]")
+
+    @FindBy(xpath ="//button[@class='checkout-btn btn btn-default btn-csa checkOutBtn']")
     private WebElement checkout;
+
 
 
     public void pdpVer(){

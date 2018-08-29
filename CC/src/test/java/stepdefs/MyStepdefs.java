@@ -1,8 +1,10 @@
 package stepdefs;
 
 
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -22,6 +24,7 @@ public class MyStepdefs {
     RegistrationPage registrationPage;
     SearchPage searchPage;
     PDP pdp;
+    Checkout checkoutPage;
 
 
     @Before
@@ -35,11 +38,13 @@ public class MyStepdefs {
         registrationPage = new RegistrationPage(driver);
         searchPage = new SearchPage(driver);
         pdp = new PDP(driver);
+        checkoutPage = new Checkout(driver);
     }
 
 
     @Given("^user navigates to the homepage$")
     public void userNavigatesOTheHomepage() {
+
         // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
         driver.get("https://csauatfull-uat.cs14.force.com/shop");
     }
@@ -255,8 +260,6 @@ public class MyStepdefs {
         searchPage.clickName();
     }
 
-
-
     @Then("^add to cart button available$")
     public void addToCartButtonAvailable() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -278,8 +281,79 @@ public class MyStepdefs {
 
     @When("^click on checkout$")
     public void clickOnCheckout() throws Throwable {
+        Thread.sleep(9000);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         pdp.clickCheckout();
+    }
+    @When("^click continue button on Contact Information$")
+    public void clickContinueButtonOnContactInformation() throws Throwable {
+        Thread.sleep(9000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.clickContinue();
+
+    }
+    @When("^click on shipment page continue a continue button$")
+    public void clickOnShipmentPageContinueAContinueButton() throws Throwable {
+        Thread.sleep(9000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.ContinueButtonShipment();
+    }
+
+    @When("^click proceed payment$")
+    public void clickProceedPayment() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setProceedPayment();
+    }
+    @When("^provide payment card First Name \"([^\"]*)\"$")
+    public void providePaymentCardFirstName(String CardFN) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setCardFN(CardFN);
+
+        }
+    @When("^fill payment card Last Name \"([^\"]*)\"$")
+    public void fillPaymentCardLastName(String CardLN) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setCardLN(CardLN);
+    }
+
+    @When("^fill payment card number \"([^\"]*)\"$")
+    public void fillPaymentCardNumber(String CardNum) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setCardNum(CardNum);
+    }
+    @When("^select card type$")
+    public void selectCardType() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Select companyType = new Select(driver.findElement(By.name("card_type")));
+        companyType.selectByVisibleText("Visa");
+    }
+
+    @When("^enter CVN code \"([^\"]*)\"$")
+    public void enterCVNCode(String CVN) throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setCVN(CVN);
+    }
+
+    @When("^click on Process Payment button$")
+    public void clickOnProcessPaymentButton() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setPaymentFinalButton();
+        Thread.sleep(20000);
+    }
+
+    @When("^select card expiration month$")
+    public void selectCardExpirationMonth() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Select companyType = new Select(driver.findElement(By.name("card_expirationMM")));
+        companyType.selectByVisibleText("12");
+
+    }
+    @When("^select card expiration year$")
+    public void selectCardExpirationYear() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Select companyType = new Select(driver.findElement(By.name("card_expirationYYYY")));
+        companyType.selectByVisibleText("2025");
+
     }
 
     @After
