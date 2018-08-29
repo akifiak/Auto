@@ -8,7 +8,7 @@ Feature: Checkout
     And enter password "<password>"
     And click submit button
     Then user see My Account text
-    When user type "C22.1HB-18"
+    When user type "Standart"
     And hit search
     And click link
     Then add to cart button available
@@ -39,6 +39,21 @@ Feature: Checkout
 
 
     Examples:
-      | username                          | password  | CardFN  | CardLN | CardNum          | CardCVN |
+      | username                            | password  | CardFN  | CardLN                  | CardNum             | CardCVN |
       #| usertestcsa+Testingakka@gmail.com | Testing1! | ddddddd | dddddd | 4111111111111111 | 333     |
-      | usertestcsa+SMKtestUser@gmail.com | Testing1! | ddddddd | dddddd | 4111111111111111 | 333     |
+      | usertestcsa+68888@gmail.com         | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
+      | usertestcsa+192837465@gmail.com     | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
+      | usertestcsa+kdskskskkk@gmail.com    | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
+      | usertestcsa+JoeIPuserTest@gmail.com | Testing1! | ddddddd | UATP                    | 135412345678911     | 333     |
+      | usertestcsa+Testingakka@gmail.com   | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
+      | usertestcsa+RegPage@gmail.com       | Testing1! | ddddddd | Mastercard              | 2222630000001125    | 333     |
+      | usertestcsa+RegPageOne@gmail.com    | Testing1! | ddddddd | Mastercard              | 2222420000001113    | 333     |
+      | usertestcsa+newsmoketest@gmail.com  | Testing1! | ddddddd | Maestro (UK Domestic)   | 5641821111166669    | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Maestro (UK Domestic)   | 6759560045005727054 | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Maestro (UK Domestic)   | 6759411100000008    | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Maestro (International) | 586824160825533338  | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Maestro (International) | 50339619890917      | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | JCB                     | 3566111111111113    | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | VISA                    | 4111111111111111    | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Discovery               | 6011111111111117    | 333     |
+      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | AMEX                    | 378282246310005     | 4444    |
