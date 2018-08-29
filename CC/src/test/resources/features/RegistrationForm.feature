@@ -38,4 +38,5 @@ Feature: Registration
       #| AK   | NewUser | 5555555555    | RegistrationPage | usertestcsa+RegPage@gmail.com | 333 W Wacker | Chicago | 60606      | Testing1! |
       #| AK   | NewUser | 5555555555    | RegistrationPageOne | usertestcsa+RegPageOne@gmail.com | 333 W Wacker | Chicago | 60606      | Testing1! |
       #| Andrii | Test | 5555555555    | testusertesttest       | usertestcsa+newsmoketest@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
-      | Andrii | Test | 5555555555    | SMKTestUser       | usertestcsa+SMKtestUser@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
+      #| Andrii | Test | 5555555555    | SMKTestUser       | usertestcsa+SMKtestUser@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
+      | Andrii | Test | 5555555555    | newOrderUser       | usertestcsa+Orderuser@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
