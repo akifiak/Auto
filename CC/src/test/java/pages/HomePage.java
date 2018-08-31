@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.asserts.SoftAssert;
 
 
-
 public class HomePage {
     public HomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -21,21 +20,23 @@ public class HomePage {
     private WebElement WelcomMessage;
 
 
+    @FindBy(xpath = "//div[@class='sub-header-links']//li//i[1]")
+    private WebElement OnDemand;
 
 
+    public void clickLogin() {
+        Login.click();
+    }
 
-
-
-    public void clickLogin() { Login.click(); }
-
-    public void getMessage(){
-        SoftAssert assertion=new SoftAssert();
+    public void getMessage() {
+        SoftAssert assertion = new SoftAssert();
         assertion.assertEquals(WelcomMessage.getText(), "My Account");
         assertion.assertAll();
     }
 
-
-
+    public void clickOnDemand() {
+        OnDemand.click();
+    }
 
 
 }

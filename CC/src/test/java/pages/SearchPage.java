@@ -8,6 +8,8 @@ package pages;
         import org.testng.asserts.SoftAssert;
 
 
+
+
 public class SearchPage {
     public SearchPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -31,6 +33,11 @@ public class SearchPage {
 
     @FindBy(xpath = "//div[@class='col-md-12 column column-middle cp-ltr-0']//button[@id='doSearchCSA']")
     private WebElement clickSearch;
+
+    @FindBy(xpath="//div[@id='collapse-a1dc0000002gIHUAA2']//div[@class='panel-body cc_body']//div[3]//input[1]")
+    private WebElement filterCollections;
+
+
     public void clicking(){
         navigateToPDP.click();
     }
@@ -40,7 +47,7 @@ public class SearchPage {
     public void setResult() {
 
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(result.getText(), "CAN/CSA-C22.2 NO. 1010.2.041-96(R04)");
+        assertion.assertEquals(result.getText(), "C22.1HB-18");
         assertion.assertAll();
     }
 
@@ -52,6 +59,10 @@ public class SearchPage {
     {
         this.enterSearch.sendKeys(enterSearch);
 
+    }
+
+    public void setFilterCollections(){
+        filterCollections.click();
     }
 
 }

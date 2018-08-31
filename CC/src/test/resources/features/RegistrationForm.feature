@@ -29,7 +29,7 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name   | ln   | primary_phone | company_name* | username*                        | address             | city            | postalCode | password  |
+      | name   | ln   | primary_phone | company_name* | username*                  | address             | city            | postalCode | password  |
      # | Test | Test | 5555555555    | My Demo Comp      | usertestcsa+68888@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
       #| Test | Test | 5555555555    | Demo corp     | usertestcsa+192837465@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
      # | Andrii | Test | 5555555555    | newuser | usertestcsa+kdskskskkk@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
@@ -39,4 +39,7 @@ Feature: Registration
       #| AK   | NewUser | 5555555555    | RegistrationPageOne | usertestcsa+RegPageOne@gmail.com | 333 W Wacker | Chicago | 60606      | Testing1! |
       #| Andrii | Test | 5555555555    | testusertesttest       | usertestcsa+newsmoketest@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
       #| Andrii | Test | 5555555555    | SMKTestUser       | usertestcsa+SMKtestUser@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
-      | Andrii | Test | 5555555555    | newOrderUser       | usertestcsa+Orderuser@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
+#      | Andrii | Test | 5555555555    | Visa       | usertestcsa+Visa@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
+#      | Andrii | Test | 5555555555    | MasterCard      | usertestcsa+mastercard@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
+   #  | Andrii | Test | 5555555555    | Amex       | usertestcsa+amex@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
+      | Andrii | Test | 5555555555    | usersmokek       | usertestcsa+smokekkk@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |

@@ -8,7 +8,7 @@ Feature: Checkout
     And enter password "<password>"
     And click submit button
     Then user see My Account text
-    When user type "Standart"
+    When user type "csa"
     And hit search
     And click link
     Then add to cart button available
@@ -26,6 +26,7 @@ Feature: Checkout
     And select card expiration year
     And enter CVN code "<CardCVN>"
     And click on Process Payment button
+    Then Thank you message is displayed
 
 
 
@@ -39,8 +40,8 @@ Feature: Checkout
 
 
     Examples:
-      | username                        | password  | CardFN  | CardLN | CardNum         | CardCVN |
-      #| usertestcsa+Testingakka@gmail.com | Testing1! | ddddddd | dddddd | 4111111111111111 | 333     |
+      | username                   | password  | CardFN  | CardLN | CardNum          | CardCVN |
+#      | usertestcsa+Testingakka@gmail.com   | Testing1! | ddddddd | dddddd                  | 4111111111111111    | 333     |
 #      | usertestcsa+68888@gmail.com         | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
 #      | usertestcsa+192837465@gmail.com     | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
 #      | usertestcsa+kdskskskkk@gmail.com    | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
@@ -56,4 +57,5 @@ Feature: Checkout
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | JCB                     | 3566111111111113    | 333     |
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | VISA                    | 4111111111111111    | 333     |
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Discovery               | 6011111111111117    | 333     |
-      | usertestcsa+Orderuser@gmail.com | Testing1! | ddddddd | AMEX   | 378282246310005 | 4444    |
+#      | usertestcsa+Orderuser@gmail.com     | Testing1! | ddddddd | AMEX                    | 378282246310005     | 4444    |
+      | usertestcsa+Visa@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     |

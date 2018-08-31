@@ -1,10 +1,10 @@
 package stepdefs;
 
 
-import cucumber.api.PendingException;
+
+
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -25,6 +25,8 @@ public class MyStepdefs {
     SearchPage searchPage;
     PDP pdp;
     Checkout checkoutPage;
+    MyLibrary library;
+
 
 
     @Before
@@ -39,6 +41,9 @@ public class MyStepdefs {
         searchPage = new SearchPage(driver);
         pdp = new PDP(driver);
         checkoutPage = new Checkout(driver);
+        library=new MyLibrary(driver);
+
+
     }
 
 
@@ -116,10 +121,10 @@ public class MyStepdefs {
         registrationPage.setBillingPostal(billingPostal);
     }
 
-    @When("^user selects country$")
-    public void userSelectsCountry() throws Throwable {
-        Select country = new Select(driver.findElement(By.name("billingAddress.countryCode")));
-        country.selectByVisibleText("Canada");
+    @When("^user selects country \"([^\"]*)\"$")
+    public void userSelectsCountry(String country) throws Throwable {
+        Select countrySelector = new Select(driver.findElement(By.name("billingAddress.countryCode")));
+        countrySelector.selectByVisibleText(country);
     }
 
     @When("^user click on use billing address for shipping$")
@@ -262,27 +267,28 @@ public class MyStepdefs {
 
     @Then("^add to cart button available$")
     public void addToCartButtonAvailable() throws Throwable {
+        Thread.sleep(5000);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         pdp.pdpVer();
     }
     @When("^click on cart$")
     public void clickOnCart() throws Throwable {
-        Thread.sleep(6000);
+        Thread.sleep(9000);
         driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         pdp.navigateCart();
         Thread.sleep(5000);
     }
     @When("^add to cart button clicked$")
     public void addToCartButtonClicked() throws Throwable {
-        Thread.sleep(6000);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Thread.sleep(9000);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         pdp.setAddToCart();
     }
 
     @When("^click on checkout$")
     public void clickOnCheckout() throws Throwable {
-        Thread.sleep(9000);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Thread.sleep(30000);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         pdp.clickCheckout();
     }
     @When("^click continue button on Contact Information$")
@@ -354,6 +360,40 @@ public class MyStepdefs {
         Select companyType = new Select(driver.findElement(By.name("card_expirationYYYY")));
         companyType.selectByVisibleText("2025");
 
+    }
+    @Then("^Thank you message is displayed$")
+    public void thankYouMessageIsDisplayed() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        checkoutPage.setThankYouMessage();
+    }
+    @When("^filter by collections$")
+    public void filterByCollections() throws Throwable {
+        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        searchPage.setFilterCollections();
+    }
+
+    @When("^user clicks on the OnDemand link$")
+    public void userClicksOnTheOnDemandLink() throws Throwable {
+        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        homePage.clickOnDemand();
+    }
+    @Then("^My Library button is present$")
+    public void myLibraryButtonIsPresent() throws Throwable {
+        library.setMyLibraryButton();
+    }
+    @When("^user click on the My library button$")
+    public void userClickOnTheMyLibraryButton() throws Throwable {
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        library.clickMyLibraryButton();
+    }
+    @Then("^user see documents$")
+    public void userSeeDocuments() throws Throwable {
+        Thread.sleep(6000);
+
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        library.setMyLibDocs();
     }
 
     @After

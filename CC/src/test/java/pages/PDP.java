@@ -11,32 +11,36 @@ public class PDP {
         PageFactory.initElements(driver, this);
 
     }
+
     @FindBy(xpath = "//button[@class='addCart-btn btn btn-default addItem btn-csa']")
     private WebElement addToCart;
 
-    @FindBy(xpath="//i[@class='fa fa-shopping-cart fa-lg']")
+    @FindBy(xpath = "//i[@class='fa fa-shopping-cart fa-lg']")
     private WebElement navCart;
 
-    @FindBy (xpath = "//button[text()[normalize-space()= 'ADD TO CART']]")
+    @FindBy(xpath = "//button[text()[normalize-space()= 'ADD TO CART']]")
     private WebElement add;
 
 
-    @FindBy(xpath ="//button[@class='checkout-btn btn btn-default btn-csa checkOutBtn']")
+    @FindBy(xpath = "//button[@class='checkout-btn btn btn-default btn-csa checkOutBtn']")
     private WebElement checkout;
 
 
-
-    public void pdpVer(){
-        SoftAssert assertion=new SoftAssert();
+    public void pdpVer() {
+        SoftAssert assertion = new SoftAssert();
         assertion.assertEquals(addToCart.getText(), "ADD TO CART");
         assertion.assertAll();
     }
 
-    public void navigateCart(){
+    public void navigateCart() {
         navCart.click();
     }
-    public void setAddToCart(){
+
+    public void setAddToCart() {
         addToCart.click();
     }
-    public void clickCheckout(){checkout.click();}
+
+    public void clickCheckout() {
+        checkout.click();
     }
+}
