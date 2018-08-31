@@ -112,7 +112,7 @@ public class RegistrationPage {
         useBilling.click();
     }
 
-    public void Submitting(){
+    public void submitting(){
         submit.click();
     }
 

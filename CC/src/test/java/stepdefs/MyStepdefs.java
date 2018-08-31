@@ -136,7 +136,7 @@ public class MyStepdefs {
     @When("^click submit$")
     public void clickSubmit() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        registrationPage.Submitting();
+        registrationPage.submitting();
         Thread.sleep(8000);
     }
 
@@ -148,13 +148,13 @@ public class MyStepdefs {
 
     }
 
-    @When("^Fill username \"([^\"]*)\"$")
+    @When("^fill username \"([^\"]*)\"$")
     public void fillUsername(String username) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterUN(username);
     }
 
-    @When("^Fill password \"([^\"]*)\"$")
+    @When("^fill password \"([^\"]*)\"$")
     public void fillPassword(String password) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage.enterPW(password);
@@ -206,10 +206,10 @@ public class MyStepdefs {
         registrationPage.setConfirmPassword(confirmPW);
     }
 
-    @When("^user selects state$")
-    public void userSelectsState() throws Throwable {
+    @When("^user selects state \"([^\"]*)\"$")
+    public void userSelectsState(String state) throws Throwable {
         Select billingState = new Select(driver.findElement(By.xpath("//select[@name='billingAddress.stateCode']")));
-        billingState.selectByVisibleText("Quebec");
+        billingState.selectByVisibleText(state);
     }
 
     @When("^mark terms$")
@@ -302,7 +302,7 @@ public class MyStepdefs {
     public void clickOnShipmentPageContinueAContinueButton() throws Throwable {
         Thread.sleep(9000);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        checkoutPage.ContinueButtonShipment();
+        checkoutPage.continueButtonShipment();
     }
 
     @When("^click proceed payment$")
@@ -311,33 +311,33 @@ public class MyStepdefs {
         checkoutPage.setProceedPayment();
     }
     @When("^provide payment card First Name \"([^\"]*)\"$")
-    public void providePaymentCardFirstName(String CardFN) throws Throwable {
+    public void providePaymentCardFirstName(String cardFN) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        checkoutPage.setCardFN(CardFN);
+        checkoutPage.setCardFN(cardFN);
 
         }
     @When("^fill payment card Last Name \"([^\"]*)\"$")
-    public void fillPaymentCardLastName(String CardLN) throws Throwable {
+    public void fillPaymentCardLastName(String cardLN) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        checkoutPage.setCardLN(CardLN);
+        checkoutPage.setCardLN(cardLN);
     }
 
     @When("^fill payment card number \"([^\"]*)\"$")
-    public void fillPaymentCardNumber(String CardNum) throws Throwable {
+    public void fillPaymentCardNumber(String cardNum) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        checkoutPage.setCardNum(CardNum);
+        checkoutPage.setCardNum(cardNum);
     }
-    @When("^select card type$")
-    public void selectCardType() throws Throwable {
+    @When("^select card type \"([^\"]*)\"$")
+    public void selectCardType(String cardName) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         Select companyType = new Select(driver.findElement(By.name("card_type")));
-        companyType.selectByVisibleText("Visa");
+        companyType.selectByVisibleText(cardName);
     }
 
     @When("^enter CVN code \"([^\"]*)\"$")
-    public void enterCVNCode(String CVN) throws Throwable {
+    public void enterCVNCode(String cvn) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        checkoutPage.setCVN(CVN);
+        checkoutPage.setCVN(cvn);
     }
 
     @When("^click on Process Payment button$")

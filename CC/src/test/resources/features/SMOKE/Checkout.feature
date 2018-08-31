@@ -19,15 +19,15 @@ Feature: Checkout
     And click continue button on Contact Information
     And click on shipment page continue a continue button
     And click proceed payment
-    And provide payment card First Name "<CardFN>"
-    And fill payment card Last Name "<CardLN>"
-    And fill payment card number "<CardNum>"
-    And select card type
+    And provide payment card First Name "<cardFN>"
+    And fill payment card Last Name "<cardLN>"
+    And fill payment card number "<cardNum>"
+    And select card type "<cardName>"
     And select card expiration month
     And select card expiration year
-    And enter CVN code "<CardCVN>"
+    And enter CVN code "<cardCVN>"
     And click on Process Payment button
-    Then Thank you message is displayed
+    Then thank you message is displayed
 
 
 
@@ -41,5 +41,6 @@ Feature: Checkout
 
 
     Examples:
-      | username                  | password  | CardFN   | CardLN | CardNum          | CardCVN |
-      | usertestcsa+co3@gmail.com | Testing1! | FakeUser | VISA   | 4111111111111111 | 333     |
+      | username                  | password  | cardFN   | cardLN | cardNum          | cardCVN | cardName         |
+      | usertestcsa+co3@gmail.com | Testing1! | FakeUser | VISA   | 4111111111111111 | 333     | Visa             |
+      |                           |           |          |        | 378282246310005  | 4444    | American Express |

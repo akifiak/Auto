@@ -14,28 +14,28 @@ public class HomePage {
     }
 
     @FindBy(xpath = "//div[contains(@class,'header-login-account-container')]//a[contains(@class,'goToLogin cc_goto_login')]")
-    private WebElement Login;
+    private WebElement login;
 
     @FindBy(xpath = "//a[@class='goToMyAccount' and contains(text(),'My Account')]")
-    private WebElement WelcomMessage;
+    private WebElement welcomMessage;
 
 
     @FindBy(xpath = "//div[@class='sub-header-links']//li//i[1]")
-    private WebElement OnDemand;
+    private WebElement onDemand;
 
 
     public void clickLogin() {
-        Login.click();
+        login.click();
     }
 
     public void getMessage() {
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(WelcomMessage.getText(), "My Account");
+        assertion.assertEquals(welcomMessage.getText(), "My Account");
         assertion.assertAll();
     }
 
     public void clickOnDemand() {
-        OnDemand.click();
+        onDemand.click();
     }
 
 

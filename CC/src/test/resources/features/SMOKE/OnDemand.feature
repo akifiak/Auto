@@ -9,7 +9,7 @@ Feature: OnDemand
     And click submit button
     Then user see My Account text
     And user clicks on the OnDemand link
-    Then My Library button is present
+    Then my Library button is present
     And user click on the My library button
     Then user see documents
 

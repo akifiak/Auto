@@ -12,24 +12,24 @@ public class MyLibrary {
     }
 
     @FindBy(xpath = "//button[contains(text(),'My Library')]")
-    private WebElement MyLibraryButton;
+    private WebElement myLibraryButton;
 
     @FindBy(xpath = "//body[@class='null comm-page-custom-mylibrary']/div[@id='csa']/div[@class='container']/div[@class='row']/div[@class='col-sm-12']/div[@class='csaBoday']/div[@class='row cCSAMyLibraryLayout siteforceContentArea']/div[@data-region-name='mainContent']/div[@class='ui-widget']/div[@class='col-sm-9 main-col cCSAParent cCSAMyLibrary']/div[@class='cCSAParent cCSAMyLibraryList']/div[@class='all-documents-container']/div[1]/div[1]")
-    private WebElement MyLibDocs;
+    private WebElement myLibDocs;
 
     public void setMyLibraryButton() {
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(MyLibraryButton.getText(), "My Library");
+        assertion.assertEquals(myLibraryButton.getText(), "My Library");
         assertion.assertAll();
     }
 
     public void clickMyLibraryButton() {
-        MyLibraryButton.click();
+        myLibraryButton.click();
     }
 
     public void setMyLibDocs() {
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(MyLibDocs.getText(), "Sustainability");
+        assertion.assertEquals(myLibDocs.getText(), "Sustainability");
         assertion.assertAll();
     }
 }

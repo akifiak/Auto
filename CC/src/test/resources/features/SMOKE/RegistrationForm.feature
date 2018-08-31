@@ -20,7 +20,7 @@ Feature: Registration
     And user fills address "<address>"
     And user selects country "<country>"
     And user fills City "<city>"
-    And user selects state
+    And user selects state "<state>"
     And user fills postal code "<postalCode>"
     And user click on use billing address for shipping
     And mark terms
@@ -29,7 +29,7 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name   | ln   | primary_phone | company_name* | username*                  | address             | city            | postalCode | password  | country |
+      | name   | ln   | primary_phone | company_name* | username*                   | address             | city            | postalCode | password  | country | state |
 #      | Andrii | Test | 5555555555    | col1          | usertestcsa+col1@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! ||
  #     | Andrii | Test | 5555555555    | col2          | usertestcsa+co2@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
-      | Andrii | Test | 5555555555    | col3          | usertestcsa+co3@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | 60606    | Testing1! |    United States      |
+      | Andrii | Test | 5555555555    | col555         | usertestcsa+ddddd@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | 60606      | Testing1! | Canada  |   Quebec    |
