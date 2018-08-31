@@ -347,18 +347,18 @@ public class MyStepdefs {
         Thread.sleep(20000);
     }
 
-    @When("^select card expiration month$")
-    public void selectCardExpirationMonth() throws Throwable {
+    @When("^select card expiration month \"([^\"]*)\"$")
+    public void selectCardExpirationMonth(String mm) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         Select companyType = new Select(driver.findElement(By.name("card_expirationMM")));
-        companyType.selectByVisibleText("12");
+        companyType.selectByVisibleText(mm);
 
     }
-    @When("^select card expiration year$")
-    public void selectCardExpirationYear() throws Throwable {
+    @When("^select card expiration year \"([^\"]*)\"$")
+    public void selectCardExpirationYear(String yyyy) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         Select companyType = new Select(driver.findElement(By.name("card_expirationYYYY")));
-        companyType.selectByVisibleText("2025");
+        companyType.selectByVisibleText(yyyy);
 
     }
     @Then("^Thank you message is displayed$")

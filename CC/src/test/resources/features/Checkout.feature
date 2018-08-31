@@ -22,8 +22,8 @@ Feature: Checkout
     And fill payment card last name "<cardLN>"
     And fill payment card number "<cardNum>"
     And select card type "<cardName>"
-    And select card expiration month
-    And select card expiration year
+    And select card expiration month "<mm>"
+    And select card expiration year "<yyyy>"
     And enter CVN code "<cardCVN>"
     And click on process payment button
     Then thank you message is displayed
@@ -40,7 +40,7 @@ Feature: Checkout
 
 
     Examples:
-      | username                   | password  | cardFN  | cardLN | cardNum          | cardCVN | cardName | searchTerm |
+      | username                   | password  | cardFN  | cardLN | cardNum          | cardCVN | cardName | searchTerm | mm | yyyy |
 #      | usertestcsa+Testingakka@gmail.com   | Testing1! | ddddddd | dddddd                  | 4111111111111111    | 333     |
 #      | usertestcsa+68888@gmail.com         | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
 #      | usertestcsa+192837465@gmail.com     | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
@@ -58,4 +58,4 @@ Feature: Checkout
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | VISA                    | 4111111111111111    | 333     |
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Discovery               | 6011111111111117    | 333     |
 #      | usertestcsa+Orderuser@gmail.com     | Testing1! | ddddddd | AMEX                    | 378282246310005     | 4444    |
-      | usertestcsa+Visa@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | Collection        |
+      | usertestcsa+Visa@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | Collection |    |      |

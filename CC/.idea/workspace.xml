@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="refactor variables naming with camelCase.">
+    <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="updated selectors and variables so that it pick up from exammples.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,10 +45,10 @@
         <counts>
           <entry key="bat" value="1" />
           <entry key="class" value="11" />
-          <entry key="feature" value="135" />
+          <entry key="feature" value="139" />
           <entry key="html" value="6" />
           <entry key="iml" value="2" />
-          <entry key="java" value="220" />
+          <entry key="java" value="222" />
           <entry key="json" value="1" />
           <entry key="xml" value="11" />
         </counts>
@@ -59,10 +56,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="Cucumber" value="135" />
+          <entry key="Cucumber" value="139" />
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="220" />
+          <entry key="JAVA" value="222" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="11" />
@@ -70,17 +67,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="4855" />
-          <entry key="java" value="7999" />
-          <entry key="txt" value="932" />
+          <entry key="feature" value="5008" />
+          <entry key="java" value="8031" />
+          <entry key="txt" value="999" />
           <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="4855" />
-          <entry key="JAVA" value="7998" />
-          <entry key="PLAIN_TEXT" value="932" />
+          <entry key="Cucumber" value="5008" />
+          <entry key="JAVA" value="8030" />
+          <entry key="PLAIN_TEXT" value="999" />
           <entry key="RegExp" value="1" />
           <entry key="XML" value="49" />
         </counts>
@@ -90,31 +87,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/MyLibrary.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/PDP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -122,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="187" column="45" lean-forward="true" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
+            <state relative-caret-position="144">
+              <caret line="92" column="37" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,23 +108,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/OnDemand.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2423#2424#0" expanded="true" />
-                <element signature="e#2483#2484#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2608#2609#0" expanded="true" />
-                <element signature="e#2667#2668#0" expanded="true" />
-                <element signature="e#2725#2726#0" expanded="true" />
-                <element signature="e#2813#2814#0" expanded="true" />
-                <element signature="e#2843#2844#0" expanded="true" />
-                <element signature="e#3108#3109#0" expanded="true" />
-                <element signature="e#3137#3138#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="93" selection-start-line="38" selection-start-column="93" selection-end-line="38" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -156,16 +128,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="132" selection-start-line="60" selection-start-column="132" selection-end-line="60" selection-end-column="132" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="765">
               <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
             </state>
           </provider>
@@ -174,8 +146,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-433">
+            <state relative-caret-position="544">
               <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -190,14 +171,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="454">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,6 +216,7 @@
       <find>cardT</find>
       <find>state</find>
       <find>country</find>
+      <find>type</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -276,16 +256,16 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/MyLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/OnDemand.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Checkout.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature" />
       </list>
     </option>
   </component>
@@ -369,6 +349,24 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="JenkinsAllFeatures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="SMOKE" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -379,7 +377,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535744881081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535746298807" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Alexandr Yakumchyk/Homework01" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16699219" />
@@ -848,13 +846,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535739495554</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updated selectors and variables so that it pick up from exammples.">
+      <created>1535744919452</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1535744919452</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Checkout_(1) - 2018.08.31 at 12h 30m 56s.xml">
-      <configuration name="Feature: Checkout (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__RegistrationForm_(1) - 2018.08.31 at 13h 05m 38s.xml">
       <configuration name="Feature: RegistrationForm (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -882,6 +884,9 @@
     <history-entry file="Feature__RegistrationForm - 2018.08.31 at 14h 47m 53s.xml">
       <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__RegistrationForm - 2018.08.31 at 14h 49m 20s.xml">
+      <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
@@ -896,7 +901,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32799014" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4130703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36744758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39874214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -969,7 +974,8 @@
     <MESSAGE value="credit cards added to checkout ." />
     <MESSAGE value="Fix for the variable values from table." />
     <MESSAGE value="refactor variables naming with camelCase." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor variables naming with camelCase." />
+    <MESSAGE value="updated selectors and variables so that it pick up from exammples." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated selectors and variables so that it pick up from exammples." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps.java" />
@@ -1043,48 +1049,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/OnDemand.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1102,16 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,10 +1145,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/ui/Select.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="132" selection-start-line="60" selection-start-column="132" selection-end-line="60" selection-end-column="132" />
         </state>
       </provider>
     </entry>
@@ -1203,32 +1188,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433">
+        <state relative-caret-position="544">
           <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/ui/Select.class">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="765">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="187" column="45" lean-forward="true" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
+        <state relative-caret-position="144">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="185">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/OnDemand.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="93" selection-start-line="38" selection-start-column="93" selection-end-line="38" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
         </state>
       </provider>
     </entry>
