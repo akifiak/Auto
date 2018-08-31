@@ -8,7 +8,7 @@ Feature: Checkout
     And enter password "<password>"
     And click submit button
     Then user see My Account text
-    When user type "Collection"
+    When user type "<searchTerm>"
     And hit search
     And filter by collections
     And click link
@@ -41,6 +41,6 @@ Feature: Checkout
 
 
     Examples:
-      | username                  | password  | cardFN   | cardLN | cardNum          | cardCVN | cardName         |
-      | usertestcsa+co3@gmail.com | Testing1! | FakeUser | VISA   | 4111111111111111 | 333     | Visa             |
+      | username                  | password  | cardFN   | cardLN | cardNum          | cardCVN | cardName         |searchTerm|
+      | usertestcsa+co3@gmail.com | Testing1! | FakeUser | VISA   | 4111111111111111 | 333     | Visa             |          |
       |                           |           |          |        | 378282246310005  | 4444    | American Express |

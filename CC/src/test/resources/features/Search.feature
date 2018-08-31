@@ -11,7 +11,7 @@ Feature: Search Products
     And enter password "<password>"
     And click submit button
     Then user see My Account text
-    When user type "C22.1HB-18"
+    When user type "<searchTerm>"
     And hit search
     Then see desired product in results
     And navigates to PDP
@@ -20,8 +20,8 @@ Feature: Search Products
 
 
     Examples:
-      | username                    | password  |
-      | avi4.20.18.3@mailinator.com | Welcome1! |
+      | username                    | password  | searchTerm |
+      | avi4.20.18.3@mailinator.com | Welcome1! | C22.1HB-18 |
 
 
 

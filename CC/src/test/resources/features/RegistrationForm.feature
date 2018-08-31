@@ -10,10 +10,10 @@ Feature: Registration
     And user fills firstname field with "<name>"
     And user fills lastname field with "<ln>"
     And user fills primary phone with "<primary_phone>"
-    And user selects preferred language as English
+    And user selects preferred language as "<language>"
     And user fills company name with "<company_name*>"
-    And user selects company type
-    And user selects job function
+    And user selects company type "<companyType>"
+    And user selects job function "<jobFunction>"
     And user fills username "<username*>"
     And user fills password "<password>"
     And user fills password again "<password>"
@@ -28,8 +28,9 @@ Feature: Registration
     And click submit
     Then form submitted
 
+
     Examples:
-      | name   | ln   | primary_phone | company_name* | username*                      | address             | city            | postalCode | password  | country | state |
+      | name   | ln   | primary_phone | company_name* | username*                        | address             | city            | postalCode | password  | country | state  | companyType   | jobFunction | language |
      # | Test | Test | 5555555555    | My Demo Comp      | usertestcsa+68888@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
       #| Test | Test | 5555555555    | Demo corp     | usertestcsa+192837465@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
      # | Andrii | Test | 5555555555    | newuser | usertestcsa+kdskskskkk@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
@@ -42,4 +43,4 @@ Feature: Registration
 #      | Andrii | Test | 5555555555    | Visa       | usertestcsa+Visa@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
 #      | Andrii | Test | 5555555555    | MasterCard      | usertestcsa+mastercard@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
    #  | Andrii | Test | 5555555555    | Amex       | usertestcsa+amex@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
-      | Andrii | Test | 5555555555    | usersmokek    | usertestcsa+smokekkk@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  |       |
+      | Andrii | Test | 5555555555    | new | usertestcsa+new@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | French   |

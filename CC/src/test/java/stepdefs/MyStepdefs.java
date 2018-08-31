@@ -90,10 +90,10 @@ public class MyStepdefs {
         registrationPage.setCompany(company);
     }
 
-    @When("^user selects company type$")
-    public void userSelectsCompanyType() throws Throwable {
+    @When("^user selects company type \"([^\"]*)\"$")
+    public void userSelectsCompanyType(String compType) throws Throwable {
         Select companyType = new Select(driver.findElement(By.id("companyType")));
-        companyType.selectByVisibleText("Real Estate");
+        companyType.selectByVisibleText(compType);
     }
 
     @When("^user fills username \"([^\"]*)\"$")
@@ -182,16 +182,16 @@ public class MyStepdefs {
         searchPage.setResult();
     }
 
-    @When("^user selects preferred language as English$")
-    public void userSelectsPreferredLanguage() throws Throwable {
+    @When("^user selects preferred language as \"([^\"]*)\"$")
+    public void userSelectsPreferredLanguage(String lang) throws Throwable {
         Select languageEn = new Select(driver.findElement(By.id("language")));
-        languageEn.selectByVisibleText("English");
+        languageEn.selectByVisibleText(lang);
     }
 
-    @When("^user selects job function$")
-    public void userSelectsJobFunction() throws Throwable {
+    @When("^user selects job function \"([^\"]*)\"$")
+    public void userSelectsJobFunction(String job) throws Throwable {
         Select jobFunction = new Select(driver.findElement(By.id("jobFunction")));
-        jobFunction.selectByVisibleText("Manager");
+        jobFunction.selectByVisibleText(job);
     }
 
     @When("^user fills password \"([^\"]*)\"$")
@@ -244,10 +244,10 @@ public class MyStepdefs {
     }
 
     @When("^user type \"([^\"]*)\"$")
-    public void userType(String subscription2) throws Throwable {
+    public void userType(String searchTerm) throws Throwable {
         Thread.sleep(6000);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        searchPage.setEnterSearch(subscription2);
+        searchPage.setEnterSearch(searchTerm);
 
     }
 
@@ -298,8 +298,8 @@ public class MyStepdefs {
         checkoutPage.clickContinue();
 
     }
-    @When("^click on shipment page continue a continue button$")
-    public void clickOnShipmentPageContinueAContinueButton() throws Throwable {
+    @When("^click on shipment page a continue button$")
+    public void clickOnShipmentPageAContinueButton() throws Throwable {
         Thread.sleep(9000);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         checkoutPage.continueButtonShipment();

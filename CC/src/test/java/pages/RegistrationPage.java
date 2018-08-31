@@ -36,31 +36,31 @@ public class RegistrationPage {
     @FindBy(xpath = "//input[@id='billingAddress.city']")
     private WebElement billingCity;
 
-    @FindBy (xpath="//select[@name='shippingAddress.stateCode']")
+    @FindBy(xpath = "//select[@name='shippingAddress.stateCode']")
     private WebElement billingState;
 
-    @FindBy(xpath="//input[@id='billingAddress.postalCode']")
+    @FindBy(xpath = "//input[@id='billingAddress.postalCode']")
     private WebElement billingPostal;
 
-    @FindBy(xpath="//a[@id='useBillingAddressRegistration']")
+    @FindBy(xpath = "//a[@id='useBillingAddressRegistration']")
     private WebElement useBilling;
 
-    @FindBy(xpath="//input[@id='btn-registration-submit']")
+    @FindBy(xpath = "//input[@id='btn-registration-submit']")
     private WebElement submit;
 
-    @FindBy(xpath="//select[@id='language' and contains (text(),'English')]")
+    @FindBy(xpath = "//select[@id='language' and contains (text(),'English')]")
     private WebElement language;
 
-    @FindBy (xpath="//input[@id='NewPassword']")
+    @FindBy(xpath = "//input[@id='NewPassword']")
     private WebElement newPassword;
 
-    @FindBy (xpath = "//input[@id='ConfirmPassword']")
+    @FindBy(xpath = "//input[@id='ConfirmPassword']")
     private WebElement confirmPassword;
 
-    @FindBy (xpath ="//input[@id='tocFlag']")
+    @FindBy(xpath = "//input[@id='tocFlag']")
     private WebElement terms;
 
-    @FindBy (xpath = "//input[@id='privacyAcceptFlag']")
+    @FindBy(xpath = "//input[@id='privacyAcceptFlag']")
     private WebElement consent;
 
 
@@ -75,6 +75,7 @@ public class RegistrationPage {
     }
 
     public void setPhone(String phone) {
+
         this.phone.sendKeys(phone);
     }
 
@@ -84,6 +85,7 @@ public class RegistrationPage {
     }
 
     public void setCompanyType() {
+
         companyType.click();
     }
 
@@ -92,27 +94,25 @@ public class RegistrationPage {
         this.userName.sendKeys(userName);
     }
 
-    public void setBillingAddress(String billingAddress)
-    {
+    public void setBillingAddress(String billingAddress) {
         this.billingAddress.sendKeys(billingAddress);
     }
 
-    public void setBillingCity(String billingCity)
-    {
+    public void setBillingCity(String billingCity) {
         this.billingCity.sendKeys(billingCity);
     }
 
 
-    public void setBillingPostal(String billingPostal)
-    {
+    public void setBillingPostal(String billingPostal) {
         this.billingPostal.sendKeys(billingPostal);
     }
-    public void setUseBilling()
-    {
+
+    public void setUseBilling() {
+
         useBilling.click();
     }
 
-    public void submitting(){
+    public void submitting() {
         submit.click();
     }
 
@@ -127,12 +127,12 @@ public class RegistrationPage {
         this.confirmPassword.sendKeys(confirmPassword);
     }
 
-    public void setTerms(){
+    public void setTerms() {
         terms.click();
     }
 
-    public void setConsent(){
-                consent.click();
+    public void setConsent() {
+        consent.click();
 
 
     }
