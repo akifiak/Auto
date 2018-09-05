@@ -108,7 +108,7 @@ public class MyStepdefs {
         String companyName=(cn+"/"+date2+"."+cn+"_AK");
         WebElement compname = driver.findElement(By.xpath("//input[@id='companyName']"));
         compname.sendKeys(companyName);
-        System.out.println("CompanyName is:"+companyName);
+        System.out.println("CompanyName is:"+companyName+"\n");
     }
 
     @When("^user selects company type \"([^\"]*)\"$")
