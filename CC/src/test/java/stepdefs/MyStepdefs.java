@@ -4,10 +4,8 @@ package stepdefs;
 
 
 import Helpers.Randomizer;
-import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -107,10 +105,10 @@ public class MyStepdefs {
         Date datef=new Date();
         String date2=dateFormat.format(datef);
 
-        String companyName=("Avi+"+date2+"."+cn+"_AK");
+        String companyName=(cn+"/"+date2+"."+cn+"_AK");
         WebElement compname = driver.findElement(By.xpath("//input[@id='companyName']"));
         compname.sendKeys(companyName);
-        System.out.println("CompanyName is:"+companyName+"\n");
+        System.out.println("CompanyName is:"+companyName);
     }
 
     @When("^user selects company type \"([^\"]*)\"$")
