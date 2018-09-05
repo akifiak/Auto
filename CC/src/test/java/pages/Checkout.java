@@ -43,6 +43,7 @@ public class Checkout {
         proceedPayment.click();
     }
 
+
     public void setCardFN(String CardFN) {
 
         this.cardFN.sendKeys(CardFN);

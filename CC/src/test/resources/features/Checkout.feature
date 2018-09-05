@@ -10,6 +10,7 @@ Feature: Checkout
     Then user see My Account text
     When user type "<searchTerm>"
     And hit search
+    #And filter by collections
     And click link
     Then add to cart button available
     And add to cart button clicked
@@ -18,14 +19,15 @@ Feature: Checkout
     And click continue button on Contact Information
     And click on shipment page a continue button
     And click proceed payment
-    And provide payment card first name "<cardFN>"
-    And fill payment card last name "<cardLN>"
-    And fill payment card number "<cardNum>"
-    And select card type "<cardName>"
-    And select card expiration month "<mm>"
-    And select card expiration year "<yyyy>"
-    And enter CVN code "<cardCVN>"
-    And click on process payment button
+    And checkmarked stored payment
+#    And provide payment card First Name "<cardFN>"
+#    And fill payment card Last Name "<cardLN>"
+#    And fill payment card number "<cardNum>"
+#    And select card type "<cardName>"
+#    And select card expiration month "<mm>"
+#    And select card expiration year "<yyyy>"
+#    And enter CVN code "<cardCVN>"
+    And click on Process Payment button
     Then thank you message is displayed
 
 

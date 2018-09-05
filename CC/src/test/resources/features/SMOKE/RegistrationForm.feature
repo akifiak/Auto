@@ -29,7 +29,9 @@ Feature: Registration
     Then form submitted
 
     Examples:
-      | name   | ln   | primary_phone | company_name* | username*                   | address             | city            | postalCode | password  | country | state  | lang | compType | job |
+      | name   | ln   | primary_phone | company_name* | username*                   | address             | city            | postalCode | password  | country | state  | lang    | compType    | job      |
 #      | Andrii | Test | 5555555555    | col1          | usertestcsa+col1@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! ||
  #     | Andrii | Test | 5555555555    | col2          | usertestcsa+co2@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
-      | Andrii | Test | 5555555555    | col555        | usertestcsa+ddddd@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | 60606      | Testing1! | Canada  | Quebec |      |         |     |
+     # | Andrii | Test | 5555555555    | col555        | usertestcsa+ddddd@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | English | Real Estate | Operator |
+     # | Andrii | Test | 5555555555    | renewaluser        | usertestcsa+renew@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | English | Real Estate | Operator |
+      | Andrii | Test | 5555555555    | subcreated        | usertestcsa+subcreated@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | English | Real Estate | Operator |

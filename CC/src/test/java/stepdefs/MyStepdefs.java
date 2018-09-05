@@ -3,15 +3,20 @@ package stepdefs;
 
 
 
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.*;
 import java.util.concurrent.TimeUnit;
 
@@ -394,6 +399,75 @@ public class MyStepdefs {
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         library.setMyLibDocs();
+    }
+    @When("^checkmarked stored payment$")
+    public void checkmarkedStoredPayment() throws Throwable {
+        if(!driver.findElements(By.xpath("//input [@name='storedPaymentSelection']")).isEmpty()){
+            WebElement Payment = (new WebDriverWait(driver, 10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@name='storedPaymentSelection']")));
+
+            Payment.click();
+
+            Thread.sleep(2000);
+            WebElement SelectPayment = (new WebDriverWait(driver, 10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'Use Stored Payment')]")));
+            SelectPayment.click();
+        }
+        else{
+
+            WebElement Card = (new WebDriverWait(driver,10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@class='firstName form-control']")));
+            Card.sendKeys("cart");
+
+            WebElement Cardln = (new WebDriverWait(driver,10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@class='lastName form-control']")));
+            Cardln.sendKeys("test");
+
+            WebElement Cardnum = (new WebDriverWait(driver,10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@class='cardNumber form-control']")));
+            Cardnum.sendKeys("4111111111111111");
+
+            Select Cardtype = new Select (driver.findElement(By.name("card_type")));
+            Cardtype.selectByVisibleText("Visa");
+
+            Select Cardmm = new Select (driver.findElement(By.name("card_expirationMM")));
+            Cardmm.selectByVisibleText("11");
+
+            Select Cardyy = new Select (driver.findElement(By.name("card_expirationYYYY")));
+            Cardyy.selectByVisibleText("2025");
+
+            WebElement Cardcvn = (new WebDriverWait(driver,10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@class='cardCvn form-control']")));
+            Cardcvn.sendKeys("777");
+
+
+
+                /*
+                WebElement Payment = (new WebDriverWait(driver, 10))
+               		   .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@name='storedPaymentSelection']")));
+
+                 Payment.click();
+
+
+                 Thread.sleep(2000);
+                 WebElement SelectPayment = (new WebDriverWait(driver, 10))
+                 		   .until(ExpectedConditions.elementToBeClickable(By.xpath("//button [@class='btn btn-default btn-sm useStoredPayment cc_use_stored_payment use-stored-pmt']")));
+
+                   SelectPayment.click();
+                   */
+
+            WebElement Payment = (new WebDriverWait(driver, 10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//input [@id='sopccPayment']")));
+
+            Payment.click();
+
+            Thread.sleep(2000);
+            WebElement SelectPayment = (new WebDriverWait(driver, 10))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//button [@class='btn btn-default btn-sm useStoredPayment cc_use_stored_payment use-stored-pmt']")));
+
+            SelectPayment.click();
+
+        }
     }
 
     @After

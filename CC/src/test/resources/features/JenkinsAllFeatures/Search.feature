@@ -21,7 +21,9 @@ Feature: Search Products
 
     Examples:
       | username                    | password  | searchTerm |
-      | avi4.20.18.3@mailinator.com | Welcome1! | csa        |
+      | avi4.20.18.3@mailinator.com | Welcome1! | test       |
+
+
 
 
 
