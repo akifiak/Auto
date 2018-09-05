@@ -3,6 +3,7 @@ package stepdefs;
 
 
 
+import Helpers.Randomizer;
 import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -18,6 +19,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.*;
+
+import java.sql.SQLOutput;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
@@ -31,7 +38,7 @@ public class MyStepdefs {
     PDP pdp;
     Checkout checkoutPage;
     MyLibrary library;
-
+    Randomizer random;
 
 
     @Before
@@ -47,7 +54,7 @@ public class MyStepdefs {
         pdp = new PDP(driver);
         checkoutPage = new Checkout(driver);
         library=new MyLibrary(driver);
-
+        random = new Randomizer();
 
     }
 
@@ -56,12 +63,13 @@ public class MyStepdefs {
     public void userNavigatesOTheHomepage() {
 
         // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
-        driver.get("https://csauatfull-uat.cs14.force.com/shop");
+       driver.get("https://csauatfull-uat.cs14.force.com/shop");
+        //driver.get("https://csadev-csabasecc.cs13.force.com/csa/");
     }
 
     @When("^user clicks on the login link$")
     public void userClicksOnTheLoginLink() {
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         homePage.clickLogin();
     }
 
@@ -89,10 +97,20 @@ public class MyStepdefs {
         registrationPage.setPhone(phone);
     }
 
-    @When("^user fills company name with \"([^\"]*)\"$")
-    public void userFillsCompanyNameWith(String company) throws Throwable {
+    @When("^user fills company name$")
+    public void userFillsCompanyNameWith() throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        registrationPage.setCompany(company);
+        Random rand = new Random();
+        int cn = rand.nextInt(200)+1;
+
+        DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy/HH.mm");
+        Date datef=new Date();
+        String date2=dateFormat.format(datef);
+
+        String companyName=("Avi+"+date2+"."+cn+"_AK");
+        WebElement compname = driver.findElement(By.xpath("//input[@id='companyName']"));
+        compname.sendKeys(companyName);
+        System.out.println("CompanyName is:"+companyName+"\n");
     }
 
     @When("^user selects company type \"([^\"]*)\"$")
@@ -105,6 +123,7 @@ public class MyStepdefs {
     public void userFillsUsername(String userName) throws Throwable {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         registrationPage.setUserName(userName);
+
     }
 
     @When("^user fills address \"([^\"]*)\"$")
@@ -130,6 +149,7 @@ public class MyStepdefs {
     public void userSelectsCountry(String country) throws Throwable {
         Select countrySelector = new Select(driver.findElement(By.name("billingAddress.countryCode")));
         countrySelector.selectByVisibleText(country);
+
     }
 
     @When("^user click on use billing address for shipping$")
@@ -412,6 +432,7 @@ public class MyStepdefs {
             WebElement SelectPayment = (new WebDriverWait(driver, 10))
                     .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'Use Stored Payment')]")));
             SelectPayment.click();
+            Thread.sleep(8000);
         }
         else{
 
@@ -466,17 +487,35 @@ public class MyStepdefs {
                     .until(ExpectedConditions.elementToBeClickable(By.xpath("//button [@class='btn btn-default btn-sm useStoredPayment cc_use_stored_payment use-stored-pmt']")));
 
             SelectPayment.click();
+            Thread.sleep(8000);
 
         }
+
+
+    }
+    @When("^user name has been set$")
+    public void userNameHasBeenSet() throws Throwable {
+        Random rand = new Random();
+        int n = rand.nextInt(200)+1;
+
+        DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy/HH.mm");
+        Date date=new Date();
+        String date1=dateFormat.format(date);
+
+        String username=("usertestcsa+"+date1+"."+n+"@gmail.com");
+        WebElement un = driver.findElement(By.xpath("//input[@id='username']"));
+        un.sendKeys(username);
+        System.out.println("UserName is:"+username);
     }
 
     @After
     public void close() throws Throwable {
-        Thread.sleep(3000);
+        Thread.sleep(8000);
         driver.close();
         driver.quit();
 
     }
+
 
 
 
