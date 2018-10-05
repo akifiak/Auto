@@ -386,7 +386,8 @@ public class MyStepdefs {
     }
     @Then("^Thank you message is displayed$")
     public void thankYouMessageIsDisplayed() throws Throwable {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         checkoutPage.setThankYouMessage();
     }
     @When("^filter by collections$")
@@ -503,7 +504,7 @@ public class MyStepdefs {
         String username=("usertestcsa+"+date1+"."+n+"@gmail.com");
         WebElement un = driver.findElement(By.xpath("//input[@id='username']"));
         un.sendKeys(username);
-        System.out.println("UserName is:"+username);
+        System.out.println("UserName is:"+" "+username);
     }
 
     @After
