@@ -21,7 +21,7 @@ Feature: Search Products
 
     Examples:
       | username                    | password  | searchTerm |
-      | usertestcsa+10/09/2018/14.20.167@gmail.com | Welcome1! | C22.1HB-18 |
+      | usertestcsa+10/09/2018/14.20.167@gmail.com | Testing1! | C22.1HB-18 |
 
 
 
