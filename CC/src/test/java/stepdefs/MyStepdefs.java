@@ -63,6 +63,7 @@ public class MyStepdefs {
         // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
        driver.get("https://csauatfull-uat.cs14.force.com/shop");
         //driver.get("https://csadev-csabasecc.cs13.force.com/csa/");
+       //driver.get("https://poluat-csastandards.cs66.force.com/store");
     }
 
     @When("^user clicks on the login link$")

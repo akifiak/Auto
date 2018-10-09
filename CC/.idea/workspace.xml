@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="Added randomizer for a unique userName and companyName">
+    <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="working code after implementation different solutions with waiting for an element.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,13 +24,14 @@
     <session id="-1280937713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="87" />
+          <entry key="project.closed" value="90" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="4" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
@@ -36,9 +40,9 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="16" />
           <entry key="project.open.time.7" value="11" />
-          <entry key="project.open.time.8" value="13" />
+          <entry key="project.open.time.8" value="14" />
           <entry key="project.open.time.9" value="13" />
-          <entry key="project.opened" value="90" />
+          <entry key="project.opened" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,10 +50,10 @@
           <entry key="UsersCheck" value="1" />
           <entry key="bat" value="1" />
           <entry key="class" value="11" />
-          <entry key="feature" value="159" />
+          <entry key="feature" value="162" />
           <entry key="html" value="6" />
           <entry key="iml" value="2" />
-          <entry key="java" value="238" />
+          <entry key="java" value="242" />
           <entry key="json" value="1" />
           <entry key="xml" value="12" />
         </counts>
@@ -57,10 +61,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="Cucumber" value="159" />
+          <entry key="Cucumber" value="162" />
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="238" />
+          <entry key="JAVA" value="242" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="12" />
@@ -68,17 +72,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="5591" />
-          <entry key="java" value="8750" />
-          <entry key="txt" value="1170" />
+          <entry key="feature" value="5716" />
+          <entry key="java" value="8774" />
+          <entry key="txt" value="1266" />
           <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="5591" />
-          <entry key="JAVA" value="8749" />
-          <entry key="PLAIN_TEXT" value="1170" />
+          <entry key="Cucumber" value="5716" />
+          <entry key="JAVA" value="8773" />
+          <entry key="PLAIN_TEXT" value="1266" />
           <entry key="RegExp" value="1" />
           <entry key="XML" value="49" />
         </counts>
@@ -90,50 +94,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
+            <state relative-caret-position="410">
               <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="388" column="27" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            <state relative-caret-position="325">
+              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -141,8 +121,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="328">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="205" column="24" lean-forward="true" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -223,19 +233,19 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/MyLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/OnDemand.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CSV/UsersCheck.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Helpers/Randomizer.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Checkout.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
       </list>
     </option>
   </component>
@@ -254,10 +264,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="319" />
-    <option name="y" value="171" />
-    <option name="width" value="1922" />
-    <option name="height" value="1029" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2582" />
+    <option name="height" value="1463" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,8 +275,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,30 +307,6 @@
               <item name="CC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,15 +316,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="CSV" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -347,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538698723144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539119213747" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16699219" />
@@ -379,27 +356,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User purchasing a product">
+  <component name="RunManager" selected="Cucumber java.Scenario: Login and search">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
-      <option name="GLUE" value="stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="CC" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Checkout" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -447,15 +406,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User purchasing a product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Form filling and submit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CC" />
-      <option name="NAME_FILTER" value="^User purchasing a product$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User purchasing a product$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User purchasing a product" />
+      <option name="NAME_FILTER" value="^Form filling and submit$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Form filling and submit$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Form filling and submit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -466,15 +425,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: account purchase a 10 subscriptions" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login and search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CC" />
-      <option name="NAME_FILTER" value="^account purchase a 10 subscriptions$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^account purchase a 10 subscriptions$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: account purchase a 10 subscriptions" />
+      <option name="NAME_FILTER" value="^Login and search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login and search$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login and search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User purchasing a product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="CC" />
+      <option name="NAME_FILTER" value="^User purchasing a product$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User purchasing a product$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User purchasing a product" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -532,18 +510,18 @@
       <item itemvalue="Cucumber java.Scenario Outline: Form filling and submit" />
       <item itemvalue="TestNG.TestRunner" />
       <item itemvalue="Cucumber java.Feature: RegistrationForm (1)" />
-      <item itemvalue="Cucumber java.Feature: Checkout" />
       <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
+      <item itemvalue="Cucumber java.Scenario: Form filling and submit" />
       <item itemvalue="Cucumber java.Feature: SubscriptionProration" />
-      <item itemvalue="Cucumber java.Scenario: account purchase a 10 subscriptions" />
+      <item itemvalue="Cucumber java.Scenario: Login and search" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
-        <item itemvalue="Cucumber java.Feature: Checkout" />
-        <item itemvalue="Cucumber java.Scenario: account purchase a 10 subscriptions" />
-        <item itemvalue="Cucumber java.Feature: RegistrationForm (1)" />
+        <item itemvalue="Cucumber java.Scenario: Login and search" />
         <item itemvalue="Cucumber java.Feature: SubscriptionProration" />
+        <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
+        <item itemvalue="Cucumber java.Scenario: Form filling and submit" />
+        <item itemvalue="Cucumber java.Feature: RegistrationForm (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -859,39 +837,46 @@
       <option name="project" value="LOCAL" />
       <updated>1538681283373</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="working code after implementation different solutions with waiting for an element.">
+      <created>1538699108113</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1538699108113</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.04 at 17h 00m 47s.xml">
+    <history-entry file="Feature__RegistrationForm_(1) - 2018.10.09 at 09h 26m 35s.xml">
+      <configuration name="Feature: RegistrationForm (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Form_filling_and_submit - 2018.10.09 at 14h 21m 40s.xml">
+      <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.09 at 15h 38m 30s.xml">
       <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.04 at 17h 03m 52s.xml">
+    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.09 at 15h 41m 46s.xml">
       <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.04 at 17h 07m 10s.xml">
-      <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__SubscriptionProration - 2018.10.09 at 15h 50m 10s.xml">
+      <configuration name="Feature: SubscriptionProration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__account_purchase_a_10_subscriptions - 2018.10.04 at 18h 08m 15s.xml">
-      <configuration name="Scenario: account purchase a 10 subscriptions" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_and_search - 2018.10.09 at 15h 56m 15s.xml">
+      <configuration name="Scenario: Login and search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__account_purchase_a_10_subscriptions - 2018.10.04 at 18h 15m 30s.xml">
-      <configuration name="Scenario: account purchase a 10 subscriptions" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_and_search - 2018.10.09 at 15h 58m 11s.xml">
+      <configuration name="Scenario: Login and search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Checkout - 2018.10.04 at 18h 53m 45s.xml">
-      <configuration name="Feature: Checkout" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_and_search - 2018.10.09 at 16h 00m 37s.xml">
+      <configuration name="Scenario: Login and search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Checkout - 2018.10.04 at 18h 59m 48s.xml">
-      <configuration name="Feature: Checkout" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_and_search - 2018.10.09 at 16h 01m 27s.xml">
+      <configuration name="Scenario: Login and search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.04 at 19h 04m 50s.xml">
-      <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.04 at 19h 09m 15s.xml">
-      <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_purchasing_a_product - 2018.10.04 at 19h 17m 52s.xml">
-      <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_and_search - 2018.10.09 at 16h 06m 37s.xml">
+      <configuration name="Scenario: Login and search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -907,7 +892,7 @@
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25827813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23540036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -967,7 +952,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removing previous test" />
     <MESSAGE value="Submitting form." />
     <MESSAGE value="jenkins" />
     <MESSAGE value="Updated create account selector" />
@@ -992,7 +976,8 @@
     <MESSAGE value="refactor SMOKE and Jenkins folders variables." />
     <MESSAGE value="added payment details if condition for stored payment." />
     <MESSAGE value="Added randomizer for a unique userName and companyName" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added randomizer for a unique userName and companyName" />
+    <MESSAGE value="working code after implementation different solutions with waiting for an element." />
+    <option name="LAST_COMMIT_MESSAGE" value="working code after implementation different solutions with waiting for an element." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps.java" />
@@ -1073,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/MyLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1143,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/CSV/UsersCheck.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1164,20 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1188,27 +1145,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="387">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="388" column="27" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
+        <state relative-caret-position="191">
+          <caret line="205" column="24" lean-forward="true" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="325">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
         </state>
       </provider>
     </entry>

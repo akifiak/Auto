@@ -20,8 +20,8 @@ Feature: Search Products
 
 
     Examples:
-      | username                    | password  | searchTerm |
-      | avi4.20.18.3@mailinator.com | Welcome1! | C22.1HB-18 |
+      | username                                   | password  | searchTerm |
+      | usertestcsa+10/09/2018/14.20.167@gmail.com | Testing1! | C22.1HB-18 |
 
 
 
