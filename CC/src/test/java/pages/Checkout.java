@@ -70,7 +70,7 @@ public class Checkout {
 
     public void setThankYouMessage() {
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(thankYouMessage.getText(), "Thank you for placing your order.");
+        assertion.assertEquals(thankYouMessage.getText(), "Thank you");
         assertion.assertAll();
     }
 

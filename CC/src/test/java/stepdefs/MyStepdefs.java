@@ -61,7 +61,7 @@ public class MyStepdefs {
     public void userNavigatesOTheHomepage() {
 
         // driver.get("https://avionosqsdemo-developer-edition.na59.force.com/DefaultStore/ccrz__HomePage?cartId=&isCSRFlow=true&portalUser=&store=&cclcl=en_US");
-       driver.get("https://csauatfull-uat.cs14.force.com/shop");
+      driver.get("https://csauatfull-uat.cs14.force.com/shop");
         //driver.get("https://csadev-csabasecc.cs13.force.com/csa/");
        //driver.get("https://poluat-csastandards.cs66.force.com/store");
     }
@@ -201,8 +201,14 @@ public class MyStepdefs {
 
     @Then("^see desired product in results$")
     public void seeResults() throws Throwable {
-        Thread.sleep(3000);
-        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+//        WebDriverWait waitSpinner = new WebDriverWait(driver, 90);
+//        waitSpinner.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='modal in']")));
+
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
+
+//        Thread.sleep(3000);
+//        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         searchPage.setResult();
     }
 
@@ -278,41 +284,52 @@ public class MyStepdefs {
 
     @When("^click link$")
     public void clickLink() throws Throwable {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        Thread.sleep(3000);
+//        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//        Thread.sleep(9000);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
         searchPage.clicking();
     }
 
     @When("^navigates to PDP$")
     public void navigatesToPDP() throws Throwable {
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
         searchPage.clickName();
     }
 
     @Then("^add to cart button available$")
     public void addToCartButtonAvailable() throws Throwable {
-        Thread.sleep(5000);
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, 120);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
+       // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         pdp.pdpVer();
     }
     @When("^click on cart$")
     public void clickOnCart() throws Throwable {
-        Thread.sleep(9000);
-        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+       // Thread.sleep(9000);
+        //driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
         pdp.navigateCart();
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
     }
     @When("^add to cart button clicked$")
     public void addToCartButtonClicked() throws Throwable {
-        Thread.sleep(9000);
-        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+        //Thread.sleep(9000);
+        //driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
         pdp.setAddToCart();
     }
 
     @When("^click on checkout$")
     public void clickOnCheckout() throws Throwable {
-        Thread.sleep(30000);
-        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+        //Thread.sleep(30000);
+        //driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='overlay']")));
         pdp.clickCheckout();
     }
     @When("^click continue button on Contact Information$")
@@ -387,7 +404,7 @@ public class MyStepdefs {
     }
     @Then("^Thank you message is displayed$")
     public void thankYouMessageIsDisplayed() throws Throwable {
-        Thread.sleep(3000);
+        Thread.sleep(6000);
         driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         checkoutPage.setThankYouMessage();
     }

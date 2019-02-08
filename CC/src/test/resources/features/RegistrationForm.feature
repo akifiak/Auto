@@ -14,7 +14,7 @@ Feature: Registration
     And user fills company name
     And user selects company type "<companyType>"
     And user selects job function "<jobFunction>"
-   # And user fills username "<username*>"
+    #And user fills username "<username*>"
     And user name has been set
     And user fills password "<password>"
     And user fills password again "<password>"
@@ -28,10 +28,10 @@ Feature: Registration
     And mark consent
     And click submit
     Then form submitted
-
+#usertestcsa+01/15/2019/15.21.114@gmail.com - test user.
 
     Examples:
-      | name   | ln   | primary_phone | company_name* | username*                        | address             | city            | postalCode | password  | country | state  | companyType   | jobFunction | language |
+      | name   | ln   | primary_phone | company_name* | username*                 | address             | city            | postalCode | password  | country | state  | companyType   | jobFunction | language |
      # | Test | Test | 5555555555    | My Demo Comp      | usertestcsa+68888@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
       #| Test | Test | 5555555555    | Demo corp     | usertestcsa+192837465@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
      # | Andrii | Test | 5555555555    | newuser | usertestcsa+kdskskskkk@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
@@ -45,5 +45,5 @@ Feature: Registration
 #      | Andrii | Test | 5555555555    | MasterCard      | usertestcsa+mastercard@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
    #  | Andrii | Test | 5555555555    | Amex       | usertestcsa+amex@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
 #      | Andrii | Test | 5555555555    | new | usertestcsa+new@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | French   |
-    #  | Andrii | Test | 5555555555    | storedCard | usertestcsa+cc@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | French   |
-      | Andrii | Test | 5555555555    | savedCard | usertestcsa+333@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | French   |
+    #  | Andrii | Test | 5555555555    | storedCard | usertestcsa+cc@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Educational services | Operator    | French   |
+      | Andrii | Test | 5555555555    | savedCard     | usertestcsa+333@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | English  |

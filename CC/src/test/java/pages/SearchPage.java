@@ -15,7 +15,7 @@ public class SearchPage {
         PageFactory.initElements(driver, this);
 
     }
-    @FindBy(xpath = "//*[@class='plp productName cc_product_name']")
+    @FindBy(xpath = "//*[@class='plp productName cc_product_name gp_prod']")
     private WebElement navigateToPDP;
 
 
@@ -28,10 +28,10 @@ public class SearchPage {
     @FindBy (xpath="//*[@class='plp productName cc_product_name']")
     private WebElement result;
 
-    @FindBy(xpath = "//input[@id='searchTextCSA']")
+    @FindBy(xpath = "//div[@class='col-md-12 column column-middle cp-ltr-0']//input[@placeholder='Search Products']")
     private WebElement enterSearch;
 
-    @FindBy(xpath = "//div[@class='col-md-12 column column-middle cp-ltr-0']//button[@id='doSearchCSA']")
+    @FindBy(xpath = "//div[@class='col-md-12 column column-middle cp-ltr-0']//i[@class='fa fa-search']")
     private WebElement clickSearch;
 
     @FindBy(xpath="//div[@id='collapse-a1dc0000002gIHUAA2']//div[@class='panel-body cc_body']//div[3]//input[1]")
@@ -45,6 +45,7 @@ public class SearchPage {
     public void setHitSearch(){clickSearch.click();}
 
     public void setResult() {
+
 
         SoftAssert assertion = new SoftAssert();
         assertion.assertEquals(result.getText(), "C22.1HB-18");

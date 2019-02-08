@@ -19,49 +19,60 @@ Feature:
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "CAN/CSA-ISO/IEC TR 13335-3-01"
+    When user type "Z32-15"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "CAN/CSA-ISO/IEC ISP 10613-19-01"
+    When user type "C22.2 NO. 58-M1989 (R2015)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "CAN/CSA-Z810-98 (R2003)"
+    When user type "CAN/CSA-ISO 13857:15"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "PLUS 1154 (1st ed. pub. 2001)"
+    When user type "C22.2 NO. 250.1-16"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "Z343-98 (R2002)"
+    When user type "C22.2 NO. 124-16"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "CAN/CSA-C22.2 NO. 1010.2.041-96(R04)"
+    When user type "CAN/CSA-M5673-2-07 (R2017)"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "CAN/CSA-ISO/IEC 12061-7-96 (R2000)"
+    When user type "CAN/CSA-C22.2 NO. 62841-2-5:16"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
-    When user type "C/C-ISO/IEC ISP 10612-9-99 (R2008)"
+    When user type "B621-14"
     And hit search
     And click link
     Then add to cart button available
     When add to cart button clicked
     And click on cart
     And click on checkout
-
+    And click continue button on Contact Information
+    And click on shipment page a continue button
+    And click proceed payment
+    And provide payment card First Name "<cardFN>"
+    And fill payment card Last Name "<cardLN>"
+    And fill payment card number "<cardNum>"
+    And select card type "<cardName>"
+    And select card expiration month "<mm>"
+    And select card expiration year "<yyyy>"
+    And enter CVN code "<cardCVN>"
+    And click on Process Payment button
+    Then thank you message is displayed
 
 
 
@@ -70,11 +81,12 @@ Feature:
 
 
     Examples:
-      | username                  | password  |
-      #| usertestcsa+Testingakka@gmail.com | Testing1! |
-#      | usertestcsa+SMKtestUser@gmail.com | Testing1! |
-     # | usertestcsa+Visa@gmail.com | Testing1! |
- #     | usertestcsa+subcreated@gmail.com | Testing1! |
- #   |usertestcsa+10/04/2018/16.52.23@gmail.com| Testing1!   |
-  |usertestcsa+10/09/2018/14.20.167@gmail.com|Testing1!|
+      | username                                   | password  | cardFN | cardLN | cardNum          | cardName | mm | yyyy | cardCVN |
+#      | usertestcsa+Testingakka@gmail.com          | Testing1! |
+#      | usertestcsa+SMKtestUser@gmail.com          | Testing1! |
+#      | usertestcsa+Visa@gmail.com                 | Testing1! |
+#      | usertestcsa+subcreated@gmail.com           | Testing1! |
+#      | usertestcsa+10/04/2018/16.52.23@gmail.com  | Testing1! |
+#      | usertestcsa+10/09/2018/14.20.167@gmail.com | Testing1! |
+      | usertestcsa+02/05/2019/11.50.175@gmail.com | Testing1! | AK     | KA     | 4111111111111111 | Visa     | 12 | 2020 | 773     |
 

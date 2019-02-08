@@ -10,7 +10,7 @@ Feature: Checkout
     Then user see My Account text
     When user type "<searchTerm>"
     And hit search
-#    And filter by collections
+    #And filter by collections
     And click link
     Then add to cart button available
     And add to cart button clicked
@@ -41,8 +41,9 @@ Feature: Checkout
 
 
 
+
     Examples:
-      | username                                  | password  | cardFN  | cardLN | cardNum          | cardCVN | cardName | searchTerm                             | mm | yyyy |
+      | username                                   | password  | cardFN  | cardLN | cardNum          | cardCVN | cardName | searchTerm | mm | yyyy |
 #      | usertestcsa+Testingakka@gmail.com   | Testing1! | ddddddd | dddddd                  | 4111111111111111    | 333     |
 #      | usertestcsa+68888@gmail.com         | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
 #      | usertestcsa+192837465@gmail.com     | Testing1! | ddddddd | Mastercard              | 5555555555554444    | 333     |
@@ -61,5 +62,4 @@ Feature: Checkout
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Discovery               | 6011111111111117    | 333     |
 #      | usertestcsa+Orderuser@gmail.com     | Testing1! | ddddddd | AMEX                    | 378282246310005     | 4444    |
 #      | usertestcsa+Visa@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | Collection |    |      |
-#      | usertestcsa+savedCard@gmail.com           | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | Building Products & Systems Collection |    |      |
-      | usertestcsa+10/09/2018/14.20.167@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | Building Products & Systems Collection | 12 | 2020 |
+      | usertestcsa+02/05/2019/15.05.143@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | C-18       | 12 | 2020 |
