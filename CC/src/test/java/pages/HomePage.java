@@ -13,7 +13,7 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//div[@class='header-login-account-container']//a[@class='goToLogin cc_goto_login']")
+    @FindBy(xpath = "//div[@class='header-login-account-container']//button[@id='login']")
     private WebElement login;
 
     @FindBy(xpath = "//a[@class='goToMyAccount' and contains(text(),'My Account')]")

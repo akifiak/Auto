@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="247e83c0-fa10-4521-ab64-5e0f1798efbc" name="Default" comment="4.9 upgrates update locators2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegtTest1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Results - Feature__RegistrationForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Results - Feature__RegistrationForm_(1).html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,25 +25,26 @@
     <session id="-1280937713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="146" />
+          <entry key="project.closed" value="156" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="7" />
-          <entry key="project.open.time.10" value="14" />
-          <entry key="project.open.time.11" value="14" />
+          <entry key="project.open.time.10" value="15" />
+          <entry key="project.open.time.11" value="15" />
           <entry key="project.open.time.12" value="16" />
-          <entry key="project.open.time.13" value="10" />
-          <entry key="project.open.time.14" value="6" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.13" value="13" />
+          <entry key="project.open.time.14" value="7" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="4" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="17" />
           <entry key="project.open.time.7" value="11" />
-          <entry key="project.open.time.8" value="20" />
+          <entry key="project.open.time.8" value="21" />
           <entry key="project.open.time.9" value="22" />
-          <entry key="project.opened" value="154" />
+          <entry key="project.opened" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,11 +62,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="12" />
-          <entry key="Cucumber" value="205" />
+          <entry key="CLASS" value="13" />
+          <entry key="Cucumber" value="210" />
           <entry key="HTML" value="11" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="304" />
+          <entry key="JAVA" value="307" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="16" />
@@ -81,8 +82,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="6086" />
-          <entry key="JAVA" value="9024" />
+          <entry key="Cucumber" value="6121" />
+          <entry key="JAVA" value="9025" />
           <entry key="PLAIN_TEXT" value="1312" />
           <entry key="RegExp" value="1" />
           <entry key="XML" value="49" />
@@ -92,32 +93,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="335">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/CSVreadWrite.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="275">
+              <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding>
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,26 +117,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="125">
+              <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+              <folding>
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar!/org/openqa/selenium/WebElement.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="119">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="663">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="204" selection-start-line="50" selection-start-column="204" selection-end-line="50" selection-end-column="204" />
             </state>
           </provider>
         </entry>
@@ -268,15 +272,15 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/JenkinsAllFeatures/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CSV/UsersCheck.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Checkout.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SubscriptionProration.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
       </list>
     </option>
   </component>
@@ -295,10 +299,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1720" />
-    <option name="y" value="-851" />
-    <option name="width" value="1148" />
-    <option name="height" value="629" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2583" />
+    <option name="height" value="1368" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -343,14 +347,6 @@
               <item name="CC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,15 +356,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="SMOKE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +370,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549666332985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550598653635" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16699219" />
@@ -417,9 +404,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
+  <component name="RunManager" selected="Cucumber java.Scenario: Form filling and submit">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="CC" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Checkout" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -432,24 +437,6 @@
       <module name="CC" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: RegistrationForm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
-      <option name="GLUE" value="stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="CC" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Search" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -486,15 +473,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login and search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User purchasing a product (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="CC" />
-      <option name="NAME_FILTER" value="^Login and search$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login and search$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login and search" />
+      <option name="NAME_FILTER" value="^User purchasing a product$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User purchasing a product$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User purchasing a product" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -570,19 +557,19 @@
     <list>
       <item itemvalue="Cucumber java.Scenario Outline: Form filling and submit" />
       <item itemvalue="TestNG.TestRunner" />
-      <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
       <item itemvalue="Cucumber java.Scenario: Form filling and submit" />
-      <item itemvalue="Cucumber java.Scenario: Login and search" />
-      <item itemvalue="Cucumber java.Feature: Search" />
+      <item itemvalue="Cucumber java.Scenario: User purchasing a product (1)" />
+      <item itemvalue="Cucumber java.Feature: Checkout" />
       <item itemvalue="Cucumber java.Feature: RegistrationForm" />
+      <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: RegistrationForm" />
-        <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
         <item itemvalue="Cucumber java.Scenario: Form filling and submit" />
-        <item itemvalue="Cucumber java.Feature: Search" />
-        <item itemvalue="Cucumber java.Scenario: Login and search" />
+        <item itemvalue="Cucumber java.Scenario: User purchasing a product" />
+        <item itemvalue="Cucumber java.Feature: Checkout" />
+        <item itemvalue="Cucumber java.Feature: RegistrationForm" />
+        <item itemvalue="Cucumber java.Scenario: User purchasing a product (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -596,20 +583,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531329203482</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Removing previous test">
-      <created>1532890370208</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1532890370208</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Removing previous test">
-      <created>1532890991655</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1532890991655</updated>
     </task>
     <task id="LOCAL-00005" summary="Submitting form.">
       <created>1532891810215</created>
@@ -940,39 +913,53 @@
       <option name="project" value="LOCAL" />
       <updated>1549654806294</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="4.9 upgrates update locators2">
+      <created>1549666336557</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1549666336557</updated>
+    </task>
+    <task id="LOCAL-00053" summary="4.9 upgrates update locators2">
+      <created>1549666352765</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1549666352765</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.08 at 12h 34m 32s.xml">
+    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.14 at 11h 18m 50s.xml">
       <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__RegistrationForm - 2019.02.08 at 12h 38m 13s.xml">
+    <history-entry file="Feature__RegistrationForm - 2019.02.14 at 11h 37m 41s.xml">
       <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Search - 2019.02.08 at 12h 41m 22s.xml">
-      <configuration name="Feature: Search" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__RegistrationForm - 2019.02.14 at 12h 13m 57s.xml">
+      <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.08 at 12h 59m 15s.xml">
+    <history-entry file="Feature__Checkout - 2019.02.18 at 13h 42m 18s.xml">
+      <configuration name="Feature: Checkout" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.18 at 14h 02m 49s.xml">
       <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__RegistrationForm - 2019.02.08 at 13h 39m 36s.xml">
-      <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__RegistrationForm - 2019.02.08 at 14h 33m 33s.xml">
-      <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_purchasing_a_product - 2019.02.08 at 14h 55m 23s.xml">
+    <history-entry file="Scenario__User_purchasing_a_product - 2019.02.18 at 15h 17m 03s.xml">
       <configuration name="Scenario: User purchasing a product" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__RegistrationForm - 2019.02.08 at 14h 56m 12s.xml">
-      <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.19 at 11h 28m 23s.xml">
+      <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__RegistrationForm - 2019.02.08 at 16h 42m 06s.xml">
-      <configuration name="Feature: RegistrationForm" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.19 at 11h 28m 44s.xml">
+      <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.02.08 at 16h 51m 13s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
+    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.19 at 11h 29m 51s.xml">
+      <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Form_filling_and_submit - 2019.02.19 at 11h 32m 09s.xml">
+      <configuration name="Scenario: Form filling and submit" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -985,10 +972,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1336" y="-1098" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39605543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45093316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -997,7 +984,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32799014" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34763947" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3889602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45186135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1005,7 +992,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292232" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292232" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.35729614" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3568678" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1120,16 +1107,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test Results - Feature__RegistrationForm_(1).html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - Feature__RegistrationForm_(1).html" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -1137,27 +1115,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test Results - Feature__RegistrationForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - Feature__RegistrationForm.html" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/CSV/UsersCheck.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1189,30 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1227,24 +1161,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="238">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/CSVreadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/Checkout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SMOKE/RegistrationForm.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="204" selection-start-line="50" selection-start-column="204" selection-end-line="50" selection-end-column="204" />
         </state>
       </provider>
     </entry>
@@ -1276,42 +1255,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helpers/CSVreadWrite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="275">
+          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Checkout.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <element signature="e#1471#1472#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="125">
+          <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+          <folding>
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/RegistrationForm.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="335">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

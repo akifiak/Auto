@@ -62,4 +62,4 @@ Feature: Checkout
 #      | usertestcsa+SMKtestUser@gmail.com   | Testing1! | ddddddd | Discovery               | 6011111111111117    | 333     |
 #      | usertestcsa+Orderuser@gmail.com     | Testing1! | ddddddd | AMEX                    | 378282246310005     | 4444    |
 #      | usertestcsa+Visa@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | Collection |    |      |
-      | usertestcsa+02/05/2019/15.05.143@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | C-18       | 12 | 2020 |
+      | usertestcsa+02/13/2019/10.25.173@gmail.com | Testing1! | ddddddd | VISA   | 4111111111111111 | 333     | Visa     | C22.1-18   | 12 | 2020 |

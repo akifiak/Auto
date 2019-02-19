@@ -48,7 +48,7 @@ public class SearchPage {
 
 
         SoftAssert assertion = new SoftAssert();
-        assertion.assertEquals(result.getText(), "C22.1HB-18");
+        assertion.assertEquals(result.getText(), "C22.1-18");
         assertion.assertAll();
     }
 
