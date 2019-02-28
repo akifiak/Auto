@@ -12,8 +12,9 @@ public class HomePage {
     public HomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-
-    @FindBy(xpath = "//div[@class='header-login-account-container']//button[@id='login']")
+////div[contains(@class,'header-login-account-container')]//a[contains(@class,'goToLogin cc_goto_login')]
+////div[@class='header-login-account-container']//button[@id='login']
+    @FindBy(xpath = "//div[@class='header-login-account-container']//button[@class='goToLogin cc_goto_login']")
     private WebElement login;
 
     @FindBy(xpath = "//a[@class='goToMyAccount' and contains(text(),'My Account')]")

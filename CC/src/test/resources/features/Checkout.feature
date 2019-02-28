@@ -41,7 +41,6 @@ Feature: Checkout
 
 
 
-
     Examples:
       | username                                   | password  | cardFN  | cardLN | cardNum          | cardCVN | cardName | searchTerm | mm | yyyy |
 #      | usertestcsa+Testingakka@gmail.com   | Testing1! | ddddddd | dddddd                  | 4111111111111111    | 333     |

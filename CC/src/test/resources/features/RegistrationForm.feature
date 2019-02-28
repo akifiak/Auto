@@ -46,4 +46,4 @@ Feature: Registration
    #  | Andrii | Test | 5555555555    | Amex       | usertestcsa+amex@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! |
 #      | Andrii | Test | 5555555555    | new | usertestcsa+new@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | French   |
     #  | Andrii | Test | 5555555555    | storedCard | usertestcsa+cc@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Educational services | Operator    | French   |
-      | Andrii | Test | 5555555555    | savedCard     | usertestcsa+333@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | English  |
+      | Andrii | Test | 5555555555    | savedCard     | usertestcsa+333@gmail.com | 10 Rue de l'Espinay | Ville de Quebec | G1L 3L5    | Testing1! | Canada  | Quebec | Manufacturing | Operator    | French  |
